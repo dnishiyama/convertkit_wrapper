@@ -11,6 +11,25 @@ boto3.setup_default_session(profile_name='might-could')
 asks.init("trio")
 # pdb.set_trace() #Tracing
 
+
+# SUBSCRIBER FUNCTIONS {{{
+
+def get_rds_subscribers(cursor):
+	all_rds_list = cursor.e('SELECT * FROM subscriber_data')
+	all_rds_dict = {a['id']: a for a in all_rds_list}
+	return all_rds_list, all_rds_dict
+
+def get_ck_subscribers(session):
+	non_active_sub_data = get_non_active_sub_data(step=1000)
+	all_non_active_dict = {a['id']: a for a in non_active_sub_data}
+	all_ck_list = get_api_data(CK_Api.ALL_SUBS, None, session=session)
+	all_ck_list += non_active_sub_data # Should be no overlap
+	all_ck_dict = {a['id']: a for a in all_ck_list}
+
+	return all_ck_list, all_ck_dict
+
+# }}}
+
 # API WRAPPER {{{
 
 class CK_Api(Enum):
@@ -21,8 +40,10 @@ class CK_Api(Enum):
 	TAG_LIST = {'data_name': 'tags', 'api_type': 'list'}
 	SEQ_LIST = {'data_name': 'courses', 'api_type': 'list'} # courses is legacy name for v3
 	FORM_LIST = {'data_name': 'forms', 'api_type': 'list'}
+	PURCHASE_LIST = {'data_name': 'purchases', 'api_type': 'list'}
 	SUB = {'data_name': 'subscribers', 'api_type': 'other', 'item_type':'url'}
 	SUB_EMAIL = {'data_name': 'subscribers', 'api_type': 'other', 'item_type': 'payload', "payload_type": "email_address"} 
+	SEQ_EMAILS = {'data_name': 'courses', 'api_type': 'other'}
 	ALL_SUBS = {'data_name': 'subscribers', 'api_type': 'other'}
 	
 	def url_and_data(self, data):
@@ -49,7 +70,9 @@ def get_api_data(ck_api: CK_Api, api_item: int, include_unsubscribers=False, tes
 	Currently accepts the following APIs
 		TAG_SUBS: e.g. https://api.convertkit.com/v3/tags/899142/subscriptions (api_item = tag_id)
 		SEQ_SUBS: e.g. https://api.convertkit.com/v3/sequences/375580/subscriptions (api_item = sequence_id)
+		SEQ_EMAILS: e.g. https://api.convertkit.com/v3/sequences/375580 (api_item = sequence_id)
 		FORM_SUBS: e.g. https://api.convertkit.com/v3/forms/341476/subscriptions (api_item = form_id)
+		PURCHASES_LIST: e.g. https://api.convertkit.com/v3/purchases/
 		SUB: e.g. https://api.convertkit.com/v3/subscribers/531681162 (api_item = subscriber_id)
 		SUB_EMAIL: e.g. https://api.convertkit.com/v3/subscribers (api_item = email_address)
 		ALL_SUBS: e.g. https://api.convertkit.com/v3/subscribers (api_item = None)
@@ -113,6 +136,9 @@ def extract_ck_api_data(ck_api, json_resp):
 		return_data += [{k:v if k != 'subscriber' else get_flat_sub_dict(v) for k,v in s.items()} for s in subscriptions]
 	elif ck_api.value["api_type"] == 'list': # list forms, list sequences, etc
 		return_data += json_resp[ck_api.value["data_name"]]
+	elif ck_api == CK_Api.SEQ_EMAILS:
+		logging.debug('Confirmed type is sequence emails')
+		return_data = get_flat_sub_dict(json_resp.get('course',{}))
 	elif ck_api == CK_Api.SUB:
 		logging.debug('Confirmed type is sub')
 		return_data = get_flat_sub_dict(json_resp.get('subscriber',{}))
@@ -131,9 +157,13 @@ async def fetch(url, ck_api, data, headers, results, page):
 	"""
 	Child concurrent get of CK api page, extracts necessary info based on the ck_api in use
 	"""
-	json_resp = json.loads((await asks.get(url, data=json.dumps({**data, 'page':page}), headers=headers)).text)
-	result = extract_ck_api_data(ck_api, json_resp)
-	results += result if type(result)==list else [result]
+	try:
+		resp = await asks.get(url, data=json.dumps({**data, 'page':page}), headers=headers)
+		json_resp = json.loads(resp.text)
+		result = extract_ck_api_data(ck_api, json_resp)
+		results += result if type(result)==list else [result]
+	except:
+		logging.error(f'error at url: {url}')
 
 async def get_api_data_async(url, ck_api, data, headers, total_pages):
 	"""
@@ -145,6 +175,7 @@ async def get_api_data_async(url, ck_api, data, headers, total_pages):
 			nursery.start_soon(fetch, url, ck_api, data, headers, results, page + 1) # "1 to total" vs of "0 to total-1"
 	return results
 
+# Use this with trio.run(get_api_single_subscribers_async, [subscribers])
 async def get_api_single_subscribers_async(subscribers):
 	"""
 	Parent concurrent get of CK api page, extracts necessary info based on the ck_api in use
@@ -209,6 +240,28 @@ def has_attrs(subscriber, _all=True, **attrs):
 	bool_fn = all if _all else any
 	attrs = {k:v if type(v) in [list, tuple] else [v] for k,v in attrs.items()}; # ensure they are all lists
 	return bool_fn(subscriber.get(k, object) in v for k,v in attrs.items())
+
+def get_all_form_subscriptions(session):
+	sub_form_sub_data = {}
+	form_ids = [g['id'] for g in get_api_data(CK_Api.FORM_LIST, None, session=session)]; form_ids
+
+	for i, form_id in enumerate(form_ids): # Go through each form_id
+		form_data = get_api_data(CK_Api.FORM_SUBS, form_id, session=session); form_data
+		print(f'Loading form data for {form_id}, {i}/{len(form_ids)}, {len(form_data)} records', end='\r')
+		for item in form_data:
+			subscriber_id = item['subscriber']['id']
+			subscription_date = time_created_to_ck(item['created_at'])
+			sub_form_sub_data.setdefault(subscriber_id, {})[form_id] = subscription_date
+
+	return sub_form_sub_data
+
+def tag_subscriber(email, tag_id, session):
+	# Some tags: 1018505 - research
+    url = f'https://api.convertkit.com/v3/tags/{tag_id}/subscribe'
+    data = {'api_key': CK_API_KEY, 'email': email}
+    headers = {'Content-Type': 'application/json', 'charset':'utf-8'}
+    resp = session.post(url, data=json.dumps(data), headers=headers)
+    if resp.status_code != 200: raise Exception('non-200 status code! Use %debug to evaluate')
 
 # }}}
 
@@ -292,9 +345,9 @@ def get_rate(email_list, act_before=None, del_before=None, _open=True):
 	act_before: only count the emails in the rate (open or click) if the action was taken before this date
 	del_before: only evaluate emails that were delivered before this date
 	"""
-	fn = opened_before if _open else clicked_before
-	if not act_before: act_before = datetime.today()
-	if not del_before: del_before = datetime.today()
+	fn = opened_before if _open else clicked_before # Choose the function
+	if not act_before: act_before = datetime.today().astimezone(pytz.timezone("US/Eastern"))
+	if not del_before: del_before = datetime.today().astimezone(pytz.timezone("US/Eastern"))
 	actions = [fn(e, act_before) for e in email_list if delivered_before(e, del_before)] # opens or clicks
 	return round(sum(actions)/len(actions), 2) if actions else None
 
@@ -389,6 +442,9 @@ def transfer_good_mismatches_to_rds(cursor, session, rds_data, ck_data):
 # Error for when a subscriber does not exist (possibly due to deletion)
 class SubscriberDNE(Exception): pass
 
+def refresh_sub_list(sub_dict):
+	return list(sub_dict.values())
+
 def update_subscriber_in_rds(sub_id, cursor, sub_data=None, session=None):
 	"""
 	Updates subscriber in RDS
@@ -445,7 +501,7 @@ def update_single_subscriber(sub_id, cursor, ck_app_session=None, do_location=Fa
 			if 'mailchimp_sub_date' in sub_data and sub_data['mailchimp_sub_date']:
 				subscribe_date = mailchimp_conv(sub_data['mailchimp_sub_date'])
 			else:
-				subscribe_date = created_at_conv(sub_data['created_at'])
+				subscribe_date = time_created_to_ck(sub_data['created_at'])
 		else: raise Exception('non-active and non-cancelled states not designed for yet')
 		sub_data['subscribe_date'] = subscribe_date
 
@@ -508,6 +564,60 @@ def array_mismatch(array1, array2):
 			if key == 'state' and (array1['unsubscribe_date'] == today or array2['unsubscribe_date'] == today): continue
 			mismatches[key] = [array1[key], array2[key]]
 	return mismatches
+
+def determine_subscribe_date(sub_id, cursor=None, session=None, ck_app_session=None):
+	subscribe_date = None
+	
+	# First check for it on the subscriber data in CK
+	if session:
+		subscribe_date = get_single_subscriber(session=session, subscriber_id=sub_id).get('subscribe_date', None)
+		if subscribe_date: 
+			logging.info(f'Found subscribe_date {subscribe_date} via CK subscribe_date')
+			return subscribe_date
+	else:
+		logging.debug('In determine_subscribe_date, skipping CK since session not provided')
+		
+	# Then check for it on subscriber_data in RDS
+	if cursor:
+		sql_stmt = f'SELECT created_at, subscribe_date FROM subscriber_data WHERE id={sub_id}'
+		result = next(iter(cursor.e(sql_stmt)), {})
+		subscribe_date = result.get('subscribe_date', None)
+		created_at = result.get('created_at', None)
+		if subscribe_date: 
+			logging.info(f'Found subscribe_date {subscribe_date} via RDS subscribe_date')
+			return subscribe_date
+	else:
+		logging.debug('In determine_subscribe_date, skipping RDS since cursor not provided')
+	
+	if ck_app_session:
+		email_data = scrape_email_list(sub_id, ck_app_session=get_ck_session())
+		try: 
+			subscribe_date = time_dt_to_ck(min([e['click_date'] for e in email_data if e['click_date']]))
+			if subscribe_date: 
+				logging.info(f'Found subscribe_date {subscribe_date} via email click data')
+				return subscribe_date
+		except:
+			try:
+				subscribe_date = time_dt_to_ck(min([e['deliver_date'] for e in email_data if e['deliver_date']]))
+				if subscribe_date: 
+					logging.info(f'Found subscribe_date {subscribe_date} via email deliver data')
+					return subscribe_date
+			except:
+				pass
+	else:
+		logging.debug('In determine_subscribe_date, skipping Email Data since ck_app_session not provided')
+		
+	if cursor:
+		subscribe_date = time_created_to_ck(created_at)
+		if subscribe_date: 
+			logging.info(f'Found subscribe_date {subscribe_date} via created_at date')
+			return subscribe_date
+		
+	if not subscribe_date:
+		raise Exception('Unable to find subscribe_date')
+	return subscribe_date
+	
+	# Then use the created_at date
 
 # }}}
 
@@ -806,7 +916,7 @@ async def scrape_email_list_async(sub_id, ck_app_session=None, results=[]):
 	"""
 
 	# Creating a session with Convertkit app (not API)
-	if not ck_app_session: ck_app_session = get_ck_session()
+	if not ck_app_session: raise Exception("Must provide ck_app_session") 
 
 	# Scrape the location data
 	url = f'https://app.convertkit.com/subscribers/{sub_id}'
@@ -892,7 +1002,6 @@ def scrape_all_email_data(conn, skip_to=None, exclude_freshness:int=None, only_a
 	exclude_freshness(int): remove subscribers that have freshness (i.e. had emails updated) in the last x days
 	"""
 	cursor = conn.cursor()
-	if skip_to: raise Exception('Not currently implemented')
 
 	# TODO: Need to get recent unsubscribers
 	sql_stmt = f"""\
@@ -903,6 +1012,7 @@ def scrape_all_email_data(conn, skip_to=None, exclude_freshness:int=None, only_a
 		AND s.state != "deleted" 
 		"""
 	if only_active: sql_stmt += """ AND s.state = "active" """
+	
 	
 	# If provided an exclude_freshness variable, remove subscribers that don't fit inside
 	if exclude_freshness and type(exclude_freshness)==int:
@@ -922,6 +1032,7 @@ def scrape_all_email_data(conn, skip_to=None, exclude_freshness:int=None, only_a
 	async_session = trio.run(get_async_ck_session, connections) # Make a session with 20 connections
 
 	for i in range(len(subscribers)//step_by + 1): # Go through all subscribers 500 (or step_by) at a time
+		if skip_to and i*step_by < skip_to: continue
 		print(f'loading for subscribers {i*step_by} to {(i+1)*step_by} out of {len(subscribers)} ', end='\r')
 		try:
 			email_data = trio.run(scrape_email_list_executor_async, subscribers[ i*step_by : (i+1)*step_by ], async_session)	# Get the email data for these subscribers
@@ -1258,26 +1369,82 @@ def get_past_launch_completions(conn = None, scrape_emails=False, include_unsubs
 
 # }}}
 
-# INACTIVE FUNCTIONS {{{
+# SCRAPE SUBSCRIBER LIST FUNCTIONS {{{
+
+
+
+async def scrape_subscribers_from_urls_executor_async(urls:list, async_session):
+	"""
+	Scrape all the subscribers for these urls
+
+	Parameters
+	==========
+	Should be a list of urls. Exclude pages, those will be added in this executor
+	"""
+
+# Example Usage
+# urls = ['https://app.convertkit.com/?subscribable_ids=115089&subscribable_type=List']
+# async_session = trio.run(get_async_ck_session, 20)
+# trio.run(scrape_subscribers_from_urls_executor_async, urls, async_session)
+
+	results=[]
+
+	async with trio.open_nursery() as nursery:
+		for url in urls:
+			logging.debug(f'Scraping {url}')
+			nursery.start_soon(scrape_subscribers_from_all_pages_of_url_async, url, async_session, nursery, results, True)
+	return results
+
+async def scrape_subscribers_from_all_pages_of_url_async(url, async_session, nursery, results, spawn_children=False):
+	"""
+	Scrapes subscriber from all pages of a url (e.g. https://app.convertkit.com/?subscribable_ids=115089&subscribable_type=List)
+
+	Parameters
+	==========
+	spawn_children (bool): if this is the first call and we don't know how many total pages there are, then this is true and we spawn children for each page in total_pages
+	
+	Returns
+	=======
+	List of subscribers (dict)
+	"""
+
+	# Creating a session with Convertkit app (not API)
+	# async_session = trio.run(get_async_ck_session, 20) # Make a session with 20 connections
+	if not async_session: raise Exception('Must provide async_session');
+
+	# Scrape the location data
+	sub_result = await async_session.get(url, headers = dict(referer = url))
+	try:
+		if sub_result.status_code!=200: raise ConnectionError(sub_result, sub_id)
+		soup = bs4.BeautifulSoup(sub_result.text, 'html.parser')
+		if spawn_children:
+			total_pages = extract_totalpages_from_soup(soup)
+			for child_page in range(2, total_pages + 1):
+				nursery.start_soon(scrape_subscribers_from_all_pages_of_url_async, url+f"&page={child_page}", async_session, nursery, results, False)
+		new_subs = extract_subscribers_from_soup(soup)
+	except ConnectionError as c:
+		new_subs = []
+		print(f'Error on sub_id {sub_id}')
+	results += list(new_subs.values())
 
 def extract_totalpages_from_soup(soup):
 	total_pages = int(soup.find(name='ul', attrs={'class': 'pagination'}).find_all('li')[-2].text)
 	return total_pages
-		
-def extract_subscribers_from_soup(soup, status_type):
+
+def extract_subscribers_from_soup(soup):
 	"""
 	Parameters
 	==========
 	soup (bs4 soup): the BeautifulSoup(sub_result.text, 'html.parser')
-	status_type (str): The status type to differentiate and to help get the tr items from the table 
 	
 	Returns
 	=======
 	subscribers (dict): The dict of subscribers {id: {id, first_name, email, created_at_datetime}}
 	"""
 	subscribers = {}
+	states = ['cancelled', 'unknown', 'active', 'inactive', 'bounced', 'complained', 'deleted']
 	sub_table = soup.find(name='table', attrs={'class': 'subscribers'})
-	subs = sub_table.tbody.find_all(name='tr', attrs={'class': status_type})
+	subs = sub_table.tbody.find_all(name='tr')
 	tz = lambda x: datetime.strptime(x, '%b %d, %Y at %I:%M%p %Z').astimezone(pytz.timezone('US/Eastern'))
 	
 	for sub in subs:
@@ -1285,68 +1452,35 @@ def extract_subscribers_from_soup(soup, status_type):
 		subscribers[sub_id] = {
 			'id': sub_id, 
 			'first_name': sub.find(name='span', attrs={'class': 'first-name'}).text.strip(), 
-			'email': sub.find(name='span', attrs={'class': 'first-name'}).next_sibling.next_sibling.text.strip(),
 			'created_at_datetime': tz(sub.find(name='span', attrs={'class': 'cursor-pointer'})['uib-tooltip'].strip())
 		}
+
+		email = sub.find(name='span', attrs={'class': 'first-name'}).next_sibling.next_sibling.text.strip()
+		if not '[' in email and not ']' in email: # Avoid issues with [email\xa0protected]
+			subscribers[sub_id]['email'] = email
+
+		state = next(iter([c for c in sub.attrs['class'] if c in states]), None)
+		if state:
+			subscribers[sub_id]['state'] = state
+
 	return subscribers
 
-def scrape_all_non_active_subscribers(ck_app_session=None, only_new=False, limit_to_past_days=None, cursor=None, test=False):
+def scrape_all_non_active_subscribers():
 	"""
-	Scrapes the main page to get all inactive subscribers
+	Scrapes the main page to get all inactive, complained and bounced subscribers
 	Use "update_rds_with_non_actives" to store non_active subscribers
 
-	Parameters
-	==========
-	only_new (boolean): tells the scraper to stop once it hits an inactive subscriber that it already knows of. Requires conn. Only works on the "inactive"s
-	limit_to_past_days (int): tells the scraper to stop once it has checked the last limit_to_past_days days
-	cursor: MYSQL cursor for use of "only_new" to know when a repeat is hit
 	"""
 
-	# Get existing inactive subs to match if only_new is True
-	if only_new and not cursor: 
-		raise Exception('Must provide mysql connection if only_new=True')
-	elif only_new:
-		existing_ids = [c['id'] for c in cursor.e('SELECT id FROM subscriber_data WHERE state = "inactive"')]
-
-	if limit_to_past_days: cutoff = datetime.now().astimezone(pytz.timezone('US/Eastern')) - timedelta(days=limit_to_past_days)
-
-	# Creating a session with Convertkit app (not API)
-	if not ck_app_session: ck_app_session = get_ck_session()
-
-	all_subs = {}
-	for status_type in ['inactive', 'complained', 'bounced']: # ignoring 'cancelled' and 'cold'
-		page=1; total_pages=1
-		while (page <= total_pages) and (not test or page==1):
-			url = f'https://app.convertkit.com/?page={page}&status={status_type}'
-			print(f'Loading page {page}/{total_pages} for {status_type}', end='\t\t\t\r') #Extra spaces to ensure no overwrite
-			try:
-				with ck_app_session.get(url, headers={'referer': url}) as sub_result:
-
-					if sub_result.status_code!=200: raise ConnectionError
-
-					soup = bs4.BeautifulSoup(sub_result.text, 'html.parser')
-					total_pages = extract_totalpages_from_soup(soup)
-					new_subs = extract_subscribers_from_soup(soup, status_type)
-					new_subs = {k:{**v, 'state':status_type} for k,v in new_subs.items()}
-					all_subs.update(new_subs)
-
-					# return with current data if this sub is already known if only_new is True (Only inactive)
-					if only_new and status_type=='inactive' and [n for n in new_subs if n in existing_ids]: 
-							page = sys.maxsize # to end while loop
-
-					# Return with current data if this sub is outside the limit_to_past_days
-					oldest = min([a['created_at_datetime'] for a in new_subs.values()])
-					if type(limit_to_past_days)==int and oldest < cutoff: 
-							page = sys.maxsize
-
-				page += 1; time.sleep(1)
-			except Exception as e:
-				print(f'Received error on page {page}. Waiting 5 minutes, then continuing on the same page')
-				print(f'Status code was {sub_result.status_code}')
-				print(e)
-				time.sleep(300)
-
-	return all_subs
+	urls = [
+		'https://app.convertkit.com/?status=inactive', 
+		'https://app.convertkit.com/?status=cancelled', 
+		'https://app.convertkit.com/?status=complained',
+		'https://app.convertkit.com/?status=bounced',
+	]
+	async_session = trio.run(get_async_ck_session, 20) # Make a session with 20 connections
+	subs = trio.run(scrape_subscribers_from_urls_executor_async, urls, async_session)
+	return {s['id']:s for s in subs} # To match legacy format
 
 # Optional testing
 #status_type = 'bounced' # complained
@@ -1355,7 +1489,26 @@ def scrape_all_non_active_subscribers(ck_app_session=None, only_new=False, limit
 #soup = bs4.BeautifulSoup(sub_result.text, 'html.parser'); soup
 #extract_subscribers_from_soup(soup, status_type)
 
-def update_rds_with_non_actives(cursor, non_actives=None, ck_app_session=None, only_new=False, limit_to_past_days=None):
+def get_non_active_sub_data(step=500):
+	""" 
+	Get all the non_active sub data via scraping then API 
+	Step determines how many increments to gather API data in
+	"""
+
+	print('Gathering all non-active sub ids via scraping')
+	all_non_active_subs = scrape_all_non_active_subscribers()
+	summary_info = Counter([all_non_active_subs[t]['state'] for t in list(all_non_active_subs.keys())])
+	logging.info(f'Gathered {summary_info}')
+    
+	print('Gathering all non-active sub data via API')
+	non_active_sub_data = []
+	for i in range(0, len(all_non_active_subs), step):
+		print(f'{i}/{len(all_non_active_subs)}', end='\r')
+		non_active_sub_data += trio.run(get_api_single_subscribers_async, list(all_non_active_subs.keys())[i:i+step])
+
+	return non_active_sub_data
+
+def update_rds_with_non_actives(cursor): 
 	"""
 	Scrapes (via "scrape_all_non_active_subscribers") the main page to get all non-active subscribers, then stores them
 	in RDS (complained, bounced, inactive)
@@ -1364,33 +1517,25 @@ def update_rds_with_non_actives(cursor, non_actives=None, ck_app_session=None, o
 	Parameters
 	==========
 	non_actives (dict): The non-actives from scrape_all_non_active_subscribers if using it directly
-	only_new (boolean): tells the scraper to stop once it hits an inactive subscriber that it already knows of. Requires conn. Only works on inactive
 	limit_to_past_days (int): tells the scraper to stop once it has checked the last limit_to_past_days days
-	cursor: MYSQL cursor for use of "only_new" to know when a repeat is hit
+	cursor: MYSQL cursor for input and storage
 	
 	Returns
 	=======
 	updated_rows (int): the number of rows updated in mysql 
 	"""
-	if not non_actives:
-		non_actives = scrape_all_non_active_subscribers(
-			ck_app_session=ck_app_session,
-			only_new=only_new, 
-			limit_to_past_days=limit_to_past_days,
-			cursor=cursor
-		) 
+	non_actives = scrape_all_non_active_subscribers() 
 
 	values = [
 		[
 			k,
 			v['state'],
 			v['first_name'],
-			v['email'],
 			datetime.strftime(v['created_at_datetime'], '%Y-%m-%dT%H:%M:%S.000Z')
 		] 
 	for k,v in non_actives.items()]; len(values), values[:2]
 
-	columns = ['id', 'state', 'first_name', 'email_address', 'created_at']
+	columns = ['id', 'state', 'first_name', 'created_at']
 
 	column_string = ", ".join(["`"+col+"`" for col in columns]); column_string
 	values_string = ", ".join(["%s"]*len(columns)); values_string
