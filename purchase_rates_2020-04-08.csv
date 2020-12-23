@@ -1,0 +1,1681 @@
+optin,source,country,launch,purchases,launches,rate
+All,All,All,All,305,46096,0.66
+All,All,All,Launch_6,47,7926,0.59
+All,All,All,Launch_7,63,11339,0.56
+All,All,All,Launch_8,34,11057,0.31
+All,All,US & CA,All,211,16411,1.29
+All,All,US & CA,Launch_6,30,2128,1.41
+All,All,US & CA,Launch_7,46,4375,1.05
+All,All,US & CA,Launch_8,22,4016,0.55
+All,Referral - Jake Parker,All,All,5,393,1.27
+All,Referral - Jake Parker,All,Launch_6,0,0,0
+All,Referral - Jake Parker,All,Launch_7,4,220,1.82
+All,Referral - Jake Parker,All,Launch_8,1,173,0.58
+All,Referral - Jake Parker,US & CA,All,4,144,2.78
+All,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+All,Referral - Jake Parker,US & CA,Launch_7,3,85,3.53
+All,Referral - Jake Parker,US & CA,Launch_8,1,59,1.69
+All,Manual,All,All,0,3,0.0
+All,Manual,All,Launch_6,0,0,0
+All,Manual,All,Launch_7,0,2,0.0
+All,Manual,All,Launch_8,0,1,0.0
+All,Manual,US & CA,All,0,0,0
+All,Manual,US & CA,Launch_6,0,0,0
+All,Manual,US & CA,Launch_7,0,0,0
+All,Manual,US & CA,Launch_8,0,0,0
+All,Twitter,All,All,0,17,0.0
+All,Twitter,All,Launch_6,0,4,0.0
+All,Twitter,All,Launch_7,0,4,0.0
+All,Twitter,All,Launch_8,0,5,0.0
+All,Twitter,US & CA,All,0,6,0.0
+All,Twitter,US & CA,Launch_6,0,2,0.0
+All,Twitter,US & CA,Launch_7,0,1,0.0
+All,Twitter,US & CA,Launch_8,0,1,0.0
+All,FB Ad,All,All,45,26224,0.17
+All,FB Ad,All,Launch_6,11,5295,0.21
+All,FB Ad,All,Launch_7,15,8277,0.18
+All,FB Ad,All,Launch_8,5,8147,0.06
+All,FB Ad,US & CA,All,31,7344,0.42
+All,FB Ad,US & CA,Launch_6,6,856,0.7
+All,FB Ad,US & CA,Launch_7,11,2885,0.38
+All,FB Ad,US & CA,Launch_8,3,2689,0.11
+All,Facebook,All,All,1,98,1.02
+All,Facebook,All,Launch_6,0,29,0.0
+All,Facebook,All,Launch_7,0,25,0.0
+All,Facebook,All,Launch_8,0,21,0.0
+All,Facebook,US & CA,All,1,8,12.5
+All,Facebook,US & CA,Launch_6,0,1,0.0
+All,Facebook,US & CA,Launch_7,0,2,0.0
+All,Facebook,US & CA,Launch_8,0,2,0.0
+All,MailChimp,All,All,89,7729,1.15
+All,MailChimp,All,Launch_6,6,861,0.7
+All,MailChimp,All,Launch_7,4,596,0.67
+All,MailChimp,All,Launch_8,4,543,0.74
+All,MailChimp,US & CA,All,63,3621,1.74
+All,MailChimp,US & CA,Launch_6,5,492,1.02
+All,MailChimp,US & CA,Launch_7,4,345,1.16
+All,MailChimp,US & CA,Launch_8,2,316,0.63
+All,Unknown,All,All,50,4841,1.03
+All,Unknown,All,Launch_6,12,444,2.7
+All,Unknown,All,Launch_7,12,494,2.43
+All,Unknown,All,Launch_8,2,512,0.39
+All,Unknown,US & CA,All,34,2205,1.54
+All,Unknown,US & CA,Launch_6,10,223,4.48
+All,Unknown,US & CA,Launch_7,7,279,2.51
+All,Unknown,US & CA,Launch_8,2,263,0.76
+All,None,All,All,0,0,0
+All,None,All,Launch_6,0,0,0
+All,None,All,Launch_7,0,0,0
+All,None,All,Launch_8,0,0,0
+All,None,US & CA,All,0,0,0
+All,None,US & CA,Launch_6,0,0,0
+All,None,US & CA,Launch_7,0,0,0
+All,None,US & CA,Launch_8,0,0,0
+All,Medium,All,All,13,1306,1.0
+All,Medium,All,Launch_6,2,217,0.92
+All,Medium,All,Launch_7,8,415,1.93
+All,Medium,All,Launch_8,1,367,0.27
+All,Medium,US & CA,All,11,521,2.11
+All,Medium,US & CA,Launch_6,2,100,2.0
+All,Medium,US & CA,Launch_7,6,148,4.05
+All,Medium,US & CA,Launch_8,1,125,0.8
+All,MCS Page,All,All,80,3993,2.0
+All,MCS Page,All,Launch_6,8,806,0.99
+All,MCS Page,All,Launch_7,16,816,1.96
+All,MCS Page,All,Launch_8,13,844,1.54
+All,MCS Page,US & CA,All,57,1916,2.97
+All,MCS Page,US & CA,Launch_6,5,370,1.35
+All,MCS Page,US & CA,Launch_7,11,388,2.84
+All,MCS Page,US & CA,Launch_8,10,363,2.75
+All,Google Ad,All,All,0,292,0.0
+All,Google Ad,All,Launch_6,0,0,0
+All,Google Ad,All,Launch_7,0,162,0.0
+All,Google Ad,All,Launch_8,0,130,0.0
+All,Google Ad,US & CA,All,0,179,0.0
+All,Google Ad,US & CA,Launch_6,0,0,0
+All,Google Ad,US & CA,Launch_7,0,101,0.0
+All,Google Ad,US & CA,Launch_8,0,78,0.0
+All,Skillshare,All,All,7,560,1.25
+All,Skillshare,All,Launch_6,3,129,2.33
+All,Skillshare,All,Launch_7,1,125,0.8
+All,Skillshare,All,Launch_8,1,117,0.85
+All,Skillshare,US & CA,All,5,258,1.94
+All,Skillshare,US & CA,Launch_6,2,58,3.45
+All,Skillshare,US & CA,Launch_7,1,58,1.72
+All,Skillshare,US & CA,Launch_8,1,52,1.92
+All,Instagram,All,All,4,620,0.65
+All,Instagram,All,Launch_6,0,141,0.0
+All,Instagram,All,Launch_7,3,203,1.48
+All,Instagram,All,Launch_8,1,181,0.55
+All,Instagram,US & CA,All,4,207,1.93
+All,Instagram,US & CA,Launch_6,0,26,0.0
+All,Instagram,US & CA,Launch_7,3,83,3.61
+All,Instagram,US & CA,Launch_8,1,66,1.52
+Style Mini-course,All,All,All,8,1741,0.46
+Style Mini-course,All,All,Launch_6,4,246,1.63
+Style Mini-course,All,All,Launch_7,3,538,0.56
+Style Mini-course,All,All,Launch_8,1,952,0.11
+Style Mini-course,All,US & CA,All,5,945,0.53
+Style Mini-course,All,US & CA,Launch_6,3,130,2.31
+Style Mini-course,All,US & CA,Launch_7,2,373,0.54
+Style Mini-course,All,US & CA,Launch_8,0,437,0.0
+Style Mini-course,Referral - Jake Parker,All,All,0,0,0
+Style Mini-course,Referral - Jake Parker,All,Launch_6,0,0,0
+Style Mini-course,Referral - Jake Parker,All,Launch_7,0,0,0
+Style Mini-course,Referral - Jake Parker,All,Launch_8,0,0,0
+Style Mini-course,Referral - Jake Parker,US & CA,All,0,0,0
+Style Mini-course,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Style Mini-course,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Style Mini-course,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Style Mini-course,Manual,All,All,0,0,0
+Style Mini-course,Manual,All,Launch_6,0,0,0
+Style Mini-course,Manual,All,Launch_7,0,0,0
+Style Mini-course,Manual,All,Launch_8,0,0,0
+Style Mini-course,Manual,US & CA,All,0,0,0
+Style Mini-course,Manual,US & CA,Launch_6,0,0,0
+Style Mini-course,Manual,US & CA,Launch_7,0,0,0
+Style Mini-course,Manual,US & CA,Launch_8,0,0,0
+Style Mini-course,Twitter,All,All,0,0,0
+Style Mini-course,Twitter,All,Launch_6,0,0,0
+Style Mini-course,Twitter,All,Launch_7,0,0,0
+Style Mini-course,Twitter,All,Launch_8,0,0,0
+Style Mini-course,Twitter,US & CA,All,0,0,0
+Style Mini-course,Twitter,US & CA,Launch_6,0,0,0
+Style Mini-course,Twitter,US & CA,Launch_7,0,0,0
+Style Mini-course,Twitter,US & CA,Launch_8,0,0,0
+Style Mini-course,FB Ad,All,All,8,1641,0.49
+Style Mini-course,FB Ad,All,Launch_6,4,243,1.65
+Style Mini-course,FB Ad,All,Launch_7,3,485,0.62
+Style Mini-course,FB Ad,All,Launch_8,1,908,0.11
+Style Mini-course,FB Ad,US & CA,All,5,874,0.57
+Style Mini-course,FB Ad,US & CA,Launch_6,3,128,2.34
+Style Mini-course,FB Ad,US & CA,Launch_7,2,334,0.6
+Style Mini-course,FB Ad,US & CA,Launch_8,0,407,0.0
+Style Mini-course,Facebook,All,All,0,0,0
+Style Mini-course,Facebook,All,Launch_6,0,0,0
+Style Mini-course,Facebook,All,Launch_7,0,0,0
+Style Mini-course,Facebook,All,Launch_8,0,0,0
+Style Mini-course,Facebook,US & CA,All,0,0,0
+Style Mini-course,Facebook,US & CA,Launch_6,0,0,0
+Style Mini-course,Facebook,US & CA,Launch_7,0,0,0
+Style Mini-course,Facebook,US & CA,Launch_8,0,0,0
+Style Mini-course,MailChimp,All,All,0,0,0
+Style Mini-course,MailChimp,All,Launch_6,0,0,0
+Style Mini-course,MailChimp,All,Launch_7,0,0,0
+Style Mini-course,MailChimp,All,Launch_8,0,0,0
+Style Mini-course,MailChimp,US & CA,All,0,0,0
+Style Mini-course,MailChimp,US & CA,Launch_6,0,0,0
+Style Mini-course,MailChimp,US & CA,Launch_7,0,0,0
+Style Mini-course,MailChimp,US & CA,Launch_8,0,0,0
+Style Mini-course,Unknown,All,All,0,3,0.0
+Style Mini-course,Unknown,All,Launch_6,0,1,0.0
+Style Mini-course,Unknown,All,Launch_7,0,1,0.0
+Style Mini-course,Unknown,All,Launch_8,0,1,0.0
+Style Mini-course,Unknown,US & CA,All,0,2,0.0
+Style Mini-course,Unknown,US & CA,Launch_6,0,0,0
+Style Mini-course,Unknown,US & CA,Launch_7,0,1,0.0
+Style Mini-course,Unknown,US & CA,Launch_8,0,1,0.0
+Style Mini-course,None,All,All,0,0,0
+Style Mini-course,None,All,Launch_6,0,0,0
+Style Mini-course,None,All,Launch_7,0,0,0
+Style Mini-course,None,All,Launch_8,0,0,0
+Style Mini-course,None,US & CA,All,0,0,0
+Style Mini-course,None,US & CA,Launch_6,0,0,0
+Style Mini-course,None,US & CA,Launch_7,0,0,0
+Style Mini-course,None,US & CA,Launch_8,0,0,0
+Style Mini-course,Medium,All,All,0,9,0.0
+Style Mini-course,Medium,All,Launch_6,0,0,0
+Style Mini-course,Medium,All,Launch_7,0,6,0.0
+Style Mini-course,Medium,All,Launch_8,0,3,0.0
+Style Mini-course,Medium,US & CA,All,0,1,0.0
+Style Mini-course,Medium,US & CA,Launch_6,0,0,0
+Style Mini-course,Medium,US & CA,Launch_7,0,1,0.0
+Style Mini-course,Medium,US & CA,Launch_8,0,0,0
+Style Mini-course,MCS Page,All,All,0,8,0.0
+Style Mini-course,MCS Page,All,Launch_6,0,1,0.0
+Style Mini-course,MCS Page,All,Launch_7,0,2,0.0
+Style Mini-course,MCS Page,All,Launch_8,0,5,0.0
+Style Mini-course,MCS Page,US & CA,All,0,3,0.0
+Style Mini-course,MCS Page,US & CA,Launch_6,0,1,0.0
+Style Mini-course,MCS Page,US & CA,Launch_7,0,1,0.0
+Style Mini-course,MCS Page,US & CA,Launch_8,0,1,0.0
+Style Mini-course,Google Ad,All,All,0,79,0.0
+Style Mini-course,Google Ad,All,Launch_6,0,0,0
+Style Mini-course,Google Ad,All,Launch_7,0,44,0.0
+Style Mini-course,Google Ad,All,Launch_8,0,35,0.0
+Style Mini-course,Google Ad,US & CA,All,0,64,0.0
+Style Mini-course,Google Ad,US & CA,Launch_6,0,0,0
+Style Mini-course,Google Ad,US & CA,Launch_7,0,36,0.0
+Style Mini-course,Google Ad,US & CA,Launch_8,0,28,0.0
+Style Mini-course,Skillshare,All,All,0,0,0
+Style Mini-course,Skillshare,All,Launch_6,0,0,0
+Style Mini-course,Skillshare,All,Launch_7,0,0,0
+Style Mini-course,Skillshare,All,Launch_8,0,0,0
+Style Mini-course,Skillshare,US & CA,All,0,0,0
+Style Mini-course,Skillshare,US & CA,Launch_6,0,0,0
+Style Mini-course,Skillshare,US & CA,Launch_7,0,0,0
+Style Mini-course,Skillshare,US & CA,Launch_8,0,0,0
+Style Mini-course,Instagram,All,All,0,1,0.0
+Style Mini-course,Instagram,All,Launch_6,0,1,0.0
+Style Mini-course,Instagram,All,Launch_7,0,0,0
+Style Mini-course,Instagram,All,Launch_8,0,0,0
+Style Mini-course,Instagram,US & CA,All,0,1,0.0
+Style Mini-course,Instagram,US & CA,Launch_6,0,1,0.0
+Style Mini-course,Instagram,US & CA,Launch_7,0,0,0
+Style Mini-course,Instagram,US & CA,Launch_8,0,0,0
+MCDT,All,All,All,37,5291,0.7
+MCDT,All,All,Launch_6,6,443,1.35
+MCDT,All,All,Launch_7,5,1931,0.26
+MCDT,All,All,Launch_8,4,2145,0.19
+MCDT,All,US & CA,All,28,3075,0.91
+MCDT,All,US & CA,Launch_6,6,220,2.73
+MCDT,All,US & CA,Launch_7,3,1217,0.25
+MCDT,All,US & CA,Launch_8,2,1201,0.17
+MCDT,Referral - Jake Parker,All,All,0,0,0
+MCDT,Referral - Jake Parker,All,Launch_6,0,0,0
+MCDT,Referral - Jake Parker,All,Launch_7,0,0,0
+MCDT,Referral - Jake Parker,All,Launch_8,0,0,0
+MCDT,Referral - Jake Parker,US & CA,All,0,0,0
+MCDT,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+MCDT,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+MCDT,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+MCDT,Manual,All,All,0,0,0
+MCDT,Manual,All,Launch_6,0,0,0
+MCDT,Manual,All,Launch_7,0,0,0
+MCDT,Manual,All,Launch_8,0,0,0
+MCDT,Manual,US & CA,All,0,0,0
+MCDT,Manual,US & CA,Launch_6,0,0,0
+MCDT,Manual,US & CA,Launch_7,0,0,0
+MCDT,Manual,US & CA,Launch_8,0,0,0
+MCDT,Twitter,All,All,0,0,0
+MCDT,Twitter,All,Launch_6,0,0,0
+MCDT,Twitter,All,Launch_7,0,0,0
+MCDT,Twitter,All,Launch_8,0,0,0
+MCDT,Twitter,US & CA,All,0,0,0
+MCDT,Twitter,US & CA,Launch_6,0,0,0
+MCDT,Twitter,US & CA,Launch_7,0,0,0
+MCDT,Twitter,US & CA,Launch_8,0,0,0
+MCDT,FB Ad,All,All,1,3334,0.03
+MCDT,FB Ad,All,Launch_6,0,13,0.0
+MCDT,FB Ad,All,Launch_7,1,1545,0.06
+MCDT,FB Ad,All,Launch_8,0,1758,0.0
+MCDT,FB Ad,US & CA,All,0,2005,0.0
+MCDT,FB Ad,US & CA,Launch_6,0,3,0.0
+MCDT,FB Ad,US & CA,Launch_7,0,1002,0.0
+MCDT,FB Ad,US & CA,Launch_8,0,996,0.0
+MCDT,Facebook,All,All,0,4,0.0
+MCDT,Facebook,All,Launch_6,0,2,0.0
+MCDT,Facebook,All,Launch_7,0,1,0.0
+MCDT,Facebook,All,Launch_8,0,1,0.0
+MCDT,Facebook,US & CA,All,0,0,0
+MCDT,Facebook,US & CA,Launch_6,0,0,0
+MCDT,Facebook,US & CA,Launch_7,0,0,0
+MCDT,Facebook,US & CA,Launch_8,0,0,0
+MCDT,MailChimp,All,All,0,0,0
+MCDT,MailChimp,All,Launch_6,0,0,0
+MCDT,MailChimp,All,Launch_7,0,0,0
+MCDT,MailChimp,All,Launch_8,0,0,0
+MCDT,MailChimp,US & CA,All,0,0,0
+MCDT,MailChimp,US & CA,Launch_6,0,0,0
+MCDT,MailChimp,US & CA,Launch_7,0,0,0
+MCDT,MailChimp,US & CA,Launch_8,0,0,0
+MCDT,Unknown,All,All,24,1602,1.5
+MCDT,Unknown,All,Launch_6,6,369,1.63
+MCDT,Unknown,All,Launch_7,3,308,0.97
+MCDT,Unknown,All,Launch_8,1,282,0.35
+MCDT,Unknown,US & CA,All,19,910,2.09
+MCDT,Unknown,US & CA,Launch_6,6,194,3.09
+MCDT,Unknown,US & CA,Launch_7,2,177,1.13
+MCDT,Unknown,US & CA,Launch_8,1,163,0.61
+MCDT,None,All,All,0,0,0
+MCDT,None,All,Launch_6,0,0,0
+MCDT,None,All,Launch_7,0,0,0
+MCDT,None,All,Launch_8,0,0,0
+MCDT,None,US & CA,All,0,0,0
+MCDT,None,US & CA,Launch_6,0,0,0
+MCDT,None,US & CA,Launch_7,0,0,0
+MCDT,None,US & CA,Launch_8,0,0,0
+MCDT,Medium,All,All,0,8,0.0
+MCDT,Medium,All,Launch_6,0,0,0
+MCDT,Medium,All,Launch_7,0,3,0.0
+MCDT,Medium,All,Launch_8,0,2,0.0
+MCDT,Medium,US & CA,All,0,1,0.0
+MCDT,Medium,US & CA,Launch_6,0,0,0
+MCDT,Medium,US & CA,Launch_7,0,1,0.0
+MCDT,Medium,US & CA,Launch_8,0,0,0
+MCDT,MCS Page,All,All,11,321,3.43
+MCDT,MCS Page,All,Launch_6,0,58,0.0
+MCDT,MCS Page,All,Launch_7,0,65,0.0
+MCDT,MCS Page,All,Launch_8,3,91,3.3
+MCDT,MCS Page,US & CA,All,8,148,5.41
+MCDT,MCS Page,US & CA,Launch_6,0,23,0.0
+MCDT,MCS Page,US & CA,Launch_7,0,31,0.0
+MCDT,MCS Page,US & CA,Launch_8,1,37,2.7
+MCDT,Google Ad,All,All,0,2,0.0
+MCDT,Google Ad,All,Launch_6,0,0,0
+MCDT,Google Ad,All,Launch_7,0,1,0.0
+MCDT,Google Ad,All,Launch_8,0,1,0.0
+MCDT,Google Ad,US & CA,All,0,0,0
+MCDT,Google Ad,US & CA,Launch_6,0,0,0
+MCDT,Google Ad,US & CA,Launch_7,0,0,0
+MCDT,Google Ad,US & CA,Launch_8,0,0,0
+MCDT,Skillshare,All,All,1,20,5.0
+MCDT,Skillshare,All,Launch_6,0,1,0.0
+MCDT,Skillshare,All,Launch_7,1,8,12.5
+MCDT,Skillshare,All,Launch_8,0,10,0.0
+MCDT,Skillshare,US & CA,All,1,11,9.09
+MCDT,Skillshare,US & CA,Launch_6,0,0,0
+MCDT,Skillshare,US & CA,Launch_7,1,6,16.67
+MCDT,Skillshare,US & CA,Launch_8,0,5,0.0
+MCDT,Instagram,All,All,0,0,0
+MCDT,Instagram,All,Launch_6,0,0,0
+MCDT,Instagram,All,Launch_7,0,0,0
+MCDT,Instagram,All,Launch_8,0,0,0
+MCDT,Instagram,US & CA,All,0,0,0
+MCDT,Instagram,US & CA,Launch_6,0,0,0
+MCDT,Instagram,US & CA,Launch_7,0,0,0
+MCDT,Instagram,US & CA,Launch_8,0,0,0
+Emails,All,All,All,12,836,1.44
+Emails,All,All,Launch_6,1,28,3.57
+Emails,All,All,Launch_7,9,367,2.45
+Emails,All,All,Launch_8,2,435,0.46
+Emails,All,US & CA,All,11,312,3.53
+Emails,All,US & CA,Launch_6,1,7,14.29
+Emails,All,US & CA,Launch_7,8,151,5.3
+Emails,All,US & CA,Launch_8,2,150,1.33
+Emails,Referral - Jake Parker,All,All,4,387,1.03
+Emails,Referral - Jake Parker,All,Launch_6,0,0,0
+Emails,Referral - Jake Parker,All,Launch_7,3,216,1.39
+Emails,Referral - Jake Parker,All,Launch_8,1,171,0.58
+Emails,Referral - Jake Parker,US & CA,All,4,140,2.86
+Emails,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Emails,Referral - Jake Parker,US & CA,Launch_7,3,83,3.61
+Emails,Referral - Jake Parker,US & CA,Launch_8,1,57,1.75
+Emails,Manual,All,All,0,3,0.0
+Emails,Manual,All,Launch_6,0,0,0
+Emails,Manual,All,Launch_7,0,2,0.0
+Emails,Manual,All,Launch_8,0,1,0.0
+Emails,Manual,US & CA,All,0,0,0
+Emails,Manual,US & CA,Launch_6,0,0,0
+Emails,Manual,US & CA,Launch_7,0,0,0
+Emails,Manual,US & CA,Launch_8,0,0,0
+Emails,Twitter,All,All,0,0,0
+Emails,Twitter,All,Launch_6,0,0,0
+Emails,Twitter,All,Launch_7,0,0,0
+Emails,Twitter,All,Launch_8,0,0,0
+Emails,Twitter,US & CA,All,0,0,0
+Emails,Twitter,US & CA,Launch_6,0,0,0
+Emails,Twitter,US & CA,Launch_7,0,0,0
+Emails,Twitter,US & CA,Launch_8,0,0,0
+Emails,FB Ad,All,All,0,3,0.0
+Emails,FB Ad,All,Launch_6,0,1,0.0
+Emails,FB Ad,All,Launch_7,0,1,0.0
+Emails,FB Ad,All,Launch_8,0,1,0.0
+Emails,FB Ad,US & CA,All,0,3,0.0
+Emails,FB Ad,US & CA,Launch_6,0,1,0.0
+Emails,FB Ad,US & CA,Launch_7,0,1,0.0
+Emails,FB Ad,US & CA,Launch_8,0,1,0.0
+Emails,Facebook,All,All,0,0,0
+Emails,Facebook,All,Launch_6,0,0,0
+Emails,Facebook,All,Launch_7,0,0,0
+Emails,Facebook,All,Launch_8,0,0,0
+Emails,Facebook,US & CA,All,0,0,0
+Emails,Facebook,US & CA,Launch_6,0,0,0
+Emails,Facebook,US & CA,Launch_7,0,0,0
+Emails,Facebook,US & CA,Launch_8,0,0,0
+Emails,MailChimp,All,All,0,0,0
+Emails,MailChimp,All,Launch_6,0,0,0
+Emails,MailChimp,All,Launch_7,0,0,0
+Emails,MailChimp,All,Launch_8,0,0,0
+Emails,MailChimp,US & CA,All,0,0,0
+Emails,MailChimp,US & CA,Launch_6,0,0,0
+Emails,MailChimp,US & CA,Launch_7,0,0,0
+Emails,MailChimp,US & CA,Launch_8,0,0,0
+Emails,Unknown,All,All,1,108,0.93
+Emails,Unknown,All,Launch_6,0,15,0.0
+Emails,Unknown,All,Launch_7,1,29,3.45
+Emails,Unknown,All,Launch_8,0,64,0.0
+Emails,Unknown,US & CA,All,1,52,1.92
+Emails,Unknown,US & CA,Launch_6,0,0,0
+Emails,Unknown,US & CA,Launch_7,1,20,5.0
+Emails,Unknown,US & CA,Launch_8,0,32,0.0
+Emails,None,All,All,0,0,0
+Emails,None,All,Launch_6,0,0,0
+Emails,None,All,Launch_7,0,0,0
+Emails,None,All,Launch_8,0,0,0
+Emails,None,US & CA,All,0,0,0
+Emails,None,US & CA,Launch_6,0,0,0
+Emails,None,US & CA,Launch_7,0,0,0
+Emails,None,US & CA,Launch_8,0,0,0
+Emails,Medium,All,All,0,1,0.0
+Emails,Medium,All,Launch_6,0,0,0
+Emails,Medium,All,Launch_7,0,1,0.0
+Emails,Medium,All,Launch_8,0,0,0
+Emails,Medium,US & CA,All,0,0,0
+Emails,Medium,US & CA,Launch_6,0,0,0
+Emails,Medium,US & CA,Launch_7,0,0,0
+Emails,Medium,US & CA,Launch_8,0,0,0
+Emails,MCS Page,All,All,6,290,2.07
+Emails,MCS Page,All,Launch_6,0,6,0.0
+Emails,MCS Page,All,Launch_7,5,103,4.85
+Emails,MCS Page,All,Launch_8,1,176,0.57
+Emails,MCS Page,US & CA,All,5,105,4.76
+Emails,MCS Page,US & CA,Launch_6,0,3,0.0
+Emails,MCS Page,US & CA,Launch_7,4,43,9.3
+Emails,MCS Page,US & CA,Launch_8,1,56,1.79
+Emails,Google Ad,All,All,0,0,0
+Emails,Google Ad,All,Launch_6,0,0,0
+Emails,Google Ad,All,Launch_7,0,0,0
+Emails,Google Ad,All,Launch_8,0,0,0
+Emails,Google Ad,US & CA,All,0,0,0
+Emails,Google Ad,US & CA,Launch_6,0,0,0
+Emails,Google Ad,US & CA,Launch_7,0,0,0
+Emails,Google Ad,US & CA,Launch_8,0,0,0
+Emails,Skillshare,All,All,1,32,3.12
+Emails,Skillshare,All,Launch_6,1,6,16.67
+Emails,Skillshare,All,Launch_7,0,14,0.0
+Emails,Skillshare,All,Launch_8,0,12,0.0
+Emails,Skillshare,US & CA,All,1,9,11.11
+Emails,Skillshare,US & CA,Launch_6,1,3,33.33
+Emails,Skillshare,US & CA,Launch_7,0,3,0.0
+Emails,Skillshare,US & CA,Launch_8,0,3,0.0
+Emails,Instagram,All,All,0,2,0.0
+Emails,Instagram,All,Launch_6,0,0,0
+Emails,Instagram,All,Launch_7,0,1,0.0
+Emails,Instagram,All,Launch_8,0,0,0
+Emails,Instagram,US & CA,All,0,2,0.0
+Emails,Instagram,US & CA,Launch_6,0,0,0
+Emails,Instagram,US & CA,Launch_7,0,1,0.0
+Emails,Instagram,US & CA,Launch_8,0,0,0
+Tools,All,All,All,15,904,1.66
+Tools,All,All,Launch_6,2,192,1.04
+Tools,All,All,Launch_7,2,150,1.33
+Tools,All,All,Launch_8,0,133,0.0
+Tools,All,US & CA,All,12,463,2.59
+Tools,All,US & CA,Launch_6,2,93,2.15
+Tools,All,US & CA,Launch_7,2,77,2.6
+Tools,All,US & CA,Launch_8,0,67,0.0
+Tools,Referral - Jake Parker,All,All,0,0,0
+Tools,Referral - Jake Parker,All,Launch_6,0,0,0
+Tools,Referral - Jake Parker,All,Launch_7,0,0,0
+Tools,Referral - Jake Parker,All,Launch_8,0,0,0
+Tools,Referral - Jake Parker,US & CA,All,0,0,0
+Tools,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Tools,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Tools,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Tools,Manual,All,All,0,0,0
+Tools,Manual,All,Launch_6,0,0,0
+Tools,Manual,All,Launch_7,0,0,0
+Tools,Manual,All,Launch_8,0,0,0
+Tools,Manual,US & CA,All,0,0,0
+Tools,Manual,US & CA,Launch_6,0,0,0
+Tools,Manual,US & CA,Launch_7,0,0,0
+Tools,Manual,US & CA,Launch_8,0,0,0
+Tools,Twitter,All,All,0,2,0.0
+Tools,Twitter,All,Launch_6,0,0,0
+Tools,Twitter,All,Launch_7,0,1,0.0
+Tools,Twitter,All,Launch_8,0,1,0.0
+Tools,Twitter,US & CA,All,0,0,0
+Tools,Twitter,US & CA,Launch_6,0,0,0
+Tools,Twitter,US & CA,Launch_7,0,0,0
+Tools,Twitter,US & CA,Launch_8,0,0,0
+Tools,FB Ad,All,All,1,32,3.12
+Tools,FB Ad,All,Launch_6,0,7,0.0
+Tools,FB Ad,All,Launch_7,0,4,0.0
+Tools,FB Ad,All,Launch_8,0,2,0.0
+Tools,FB Ad,US & CA,All,1,17,5.88
+Tools,FB Ad,US & CA,Launch_6,0,3,0.0
+Tools,FB Ad,US & CA,Launch_7,0,2,0.0
+Tools,FB Ad,US & CA,Launch_8,0,1,0.0
+Tools,Facebook,All,All,1,1,100.0
+Tools,Facebook,All,Launch_6,0,0,0
+Tools,Facebook,All,Launch_7,0,0,0
+Tools,Facebook,All,Launch_8,0,0,0
+Tools,Facebook,US & CA,All,1,1,100.0
+Tools,Facebook,US & CA,Launch_6,0,0,0
+Tools,Facebook,US & CA,Launch_7,0,0,0
+Tools,Facebook,US & CA,Launch_8,0,0,0
+Tools,MailChimp,All,All,0,0,0
+Tools,MailChimp,All,Launch_6,0,0,0
+Tools,MailChimp,All,Launch_7,0,0,0
+Tools,MailChimp,All,Launch_8,0,0,0
+Tools,MailChimp,US & CA,All,0,0,0
+Tools,MailChimp,US & CA,Launch_6,0,0,0
+Tools,MailChimp,US & CA,Launch_7,0,0,0
+Tools,MailChimp,US & CA,Launch_8,0,0,0
+Tools,Unknown,All,All,0,1,0.0
+Tools,Unknown,All,Launch_6,0,0,0
+Tools,Unknown,All,Launch_7,0,1,0.0
+Tools,Unknown,All,Launch_8,0,0,0
+Tools,Unknown,US & CA,All,0,0,0
+Tools,Unknown,US & CA,Launch_6,0,0,0
+Tools,Unknown,US & CA,Launch_7,0,0,0
+Tools,Unknown,US & CA,Launch_8,0,0,0
+Tools,None,All,All,0,0,0
+Tools,None,All,Launch_6,0,0,0
+Tools,None,All,Launch_7,0,0,0
+Tools,None,All,Launch_8,0,0,0
+Tools,None,US & CA,All,0,0,0
+Tools,None,US & CA,Launch_6,0,0,0
+Tools,None,US & CA,Launch_7,0,0,0
+Tools,None,US & CA,Launch_8,0,0,0
+Tools,Medium,All,All,1,172,0.58
+Tools,Medium,All,Launch_6,1,45,2.22
+Tools,Medium,All,Launch_7,0,31,0.0
+Tools,Medium,All,Launch_8,0,27,0.0
+Tools,Medium,US & CA,All,1,87,1.15
+Tools,Medium,US & CA,Launch_6,1,22,4.55
+Tools,Medium,US & CA,Launch_7,0,16,0.0
+Tools,Medium,US & CA,Launch_8,0,12,0.0
+Tools,MCS Page,All,All,11,652,1.69
+Tools,MCS Page,All,Launch_6,0,128,0.0
+Tools,MCS Page,All,Launch_7,2,100,2.0
+Tools,MCS Page,All,Launch_8,0,92,0.0
+Tools,MCS Page,US & CA,All,8,338,2.37
+Tools,MCS Page,US & CA,Launch_6,0,63,0.0
+Tools,MCS Page,US & CA,Launch_7,2,53,3.77
+Tools,MCS Page,US & CA,Launch_8,0,49,0.0
+Tools,Google Ad,All,All,0,0,0
+Tools,Google Ad,All,Launch_6,0,0,0
+Tools,Google Ad,All,Launch_7,0,0,0
+Tools,Google Ad,All,Launch_8,0,0,0
+Tools,Google Ad,US & CA,All,0,0,0
+Tools,Google Ad,US & CA,Launch_6,0,0,0
+Tools,Google Ad,US & CA,Launch_7,0,0,0
+Tools,Google Ad,US & CA,Launch_8,0,0,0
+Tools,Skillshare,All,All,1,44,2.27
+Tools,Skillshare,All,Launch_6,1,12,8.33
+Tools,Skillshare,All,Launch_7,0,13,0.0
+Tools,Skillshare,All,Launch_8,0,11,0.0
+Tools,Skillshare,US & CA,All,1,20,5.0
+Tools,Skillshare,US & CA,Launch_6,1,5,20.0
+Tools,Skillshare,US & CA,Launch_7,0,6,0.0
+Tools,Skillshare,US & CA,Launch_8,0,5,0.0
+Tools,Instagram,All,All,0,0,0
+Tools,Instagram,All,Launch_6,0,0,0
+Tools,Instagram,All,Launch_7,0,0,0
+Tools,Instagram,All,Launch_8,0,0,0
+Tools,Instagram,US & CA,All,0,0,0
+Tools,Instagram,US & CA,Launch_6,0,0,0
+Tools,Instagram,US & CA,Launch_7,0,0,0
+Tools,Instagram,US & CA,Launch_8,0,0,0
+WAF Activity Guide,All,All,All,0,5,0.0
+WAF Activity Guide,All,All,Launch_6,0,0,0
+WAF Activity Guide,All,All,Launch_7,0,0,0
+WAF Activity Guide,All,All,Launch_8,0,3,0.0
+WAF Activity Guide,All,US & CA,All,0,4,0.0
+WAF Activity Guide,All,US & CA,Launch_6,0,0,0
+WAF Activity Guide,All,US & CA,Launch_7,0,0,0
+WAF Activity Guide,All,US & CA,Launch_8,0,2,0.0
+WAF Activity Guide,Referral - Jake Parker,All,All,0,0,0
+WAF Activity Guide,Referral - Jake Parker,All,Launch_6,0,0,0
+WAF Activity Guide,Referral - Jake Parker,All,Launch_7,0,0,0
+WAF Activity Guide,Referral - Jake Parker,All,Launch_8,0,0,0
+WAF Activity Guide,Referral - Jake Parker,US & CA,All,0,0,0
+WAF Activity Guide,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+WAF Activity Guide,Manual,All,All,0,0,0
+WAF Activity Guide,Manual,All,Launch_6,0,0,0
+WAF Activity Guide,Manual,All,Launch_7,0,0,0
+WAF Activity Guide,Manual,All,Launch_8,0,0,0
+WAF Activity Guide,Manual,US & CA,All,0,0,0
+WAF Activity Guide,Manual,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Manual,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Manual,US & CA,Launch_8,0,0,0
+WAF Activity Guide,Twitter,All,All,0,0,0
+WAF Activity Guide,Twitter,All,Launch_6,0,0,0
+WAF Activity Guide,Twitter,All,Launch_7,0,0,0
+WAF Activity Guide,Twitter,All,Launch_8,0,0,0
+WAF Activity Guide,Twitter,US & CA,All,0,0,0
+WAF Activity Guide,Twitter,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Twitter,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Twitter,US & CA,Launch_8,0,0,0
+WAF Activity Guide,FB Ad,All,All,0,0,0
+WAF Activity Guide,FB Ad,All,Launch_6,0,0,0
+WAF Activity Guide,FB Ad,All,Launch_7,0,0,0
+WAF Activity Guide,FB Ad,All,Launch_8,0,0,0
+WAF Activity Guide,FB Ad,US & CA,All,0,0,0
+WAF Activity Guide,FB Ad,US & CA,Launch_6,0,0,0
+WAF Activity Guide,FB Ad,US & CA,Launch_7,0,0,0
+WAF Activity Guide,FB Ad,US & CA,Launch_8,0,0,0
+WAF Activity Guide,Facebook,All,All,0,0,0
+WAF Activity Guide,Facebook,All,Launch_6,0,0,0
+WAF Activity Guide,Facebook,All,Launch_7,0,0,0
+WAF Activity Guide,Facebook,All,Launch_8,0,0,0
+WAF Activity Guide,Facebook,US & CA,All,0,0,0
+WAF Activity Guide,Facebook,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Facebook,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Facebook,US & CA,Launch_8,0,0,0
+WAF Activity Guide,MailChimp,All,All,0,0,0
+WAF Activity Guide,MailChimp,All,Launch_6,0,0,0
+WAF Activity Guide,MailChimp,All,Launch_7,0,0,0
+WAF Activity Guide,MailChimp,All,Launch_8,0,0,0
+WAF Activity Guide,MailChimp,US & CA,All,0,0,0
+WAF Activity Guide,MailChimp,US & CA,Launch_6,0,0,0
+WAF Activity Guide,MailChimp,US & CA,Launch_7,0,0,0
+WAF Activity Guide,MailChimp,US & CA,Launch_8,0,0,0
+WAF Activity Guide,Unknown,All,All,0,0,0
+WAF Activity Guide,Unknown,All,Launch_6,0,0,0
+WAF Activity Guide,Unknown,All,Launch_7,0,0,0
+WAF Activity Guide,Unknown,All,Launch_8,0,0,0
+WAF Activity Guide,Unknown,US & CA,All,0,0,0
+WAF Activity Guide,Unknown,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Unknown,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Unknown,US & CA,Launch_8,0,0,0
+WAF Activity Guide,None,All,All,0,0,0
+WAF Activity Guide,None,All,Launch_6,0,0,0
+WAF Activity Guide,None,All,Launch_7,0,0,0
+WAF Activity Guide,None,All,Launch_8,0,0,0
+WAF Activity Guide,None,US & CA,All,0,0,0
+WAF Activity Guide,None,US & CA,Launch_6,0,0,0
+WAF Activity Guide,None,US & CA,Launch_7,0,0,0
+WAF Activity Guide,None,US & CA,Launch_8,0,0,0
+WAF Activity Guide,Medium,All,All,0,0,0
+WAF Activity Guide,Medium,All,Launch_6,0,0,0
+WAF Activity Guide,Medium,All,Launch_7,0,0,0
+WAF Activity Guide,Medium,All,Launch_8,0,0,0
+WAF Activity Guide,Medium,US & CA,All,0,0,0
+WAF Activity Guide,Medium,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Medium,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Medium,US & CA,Launch_8,0,0,0
+WAF Activity Guide,MCS Page,All,All,0,5,0.0
+WAF Activity Guide,MCS Page,All,Launch_6,0,0,0
+WAF Activity Guide,MCS Page,All,Launch_7,0,0,0
+WAF Activity Guide,MCS Page,All,Launch_8,0,3,0.0
+WAF Activity Guide,MCS Page,US & CA,All,0,4,0.0
+WAF Activity Guide,MCS Page,US & CA,Launch_6,0,0,0
+WAF Activity Guide,MCS Page,US & CA,Launch_7,0,0,0
+WAF Activity Guide,MCS Page,US & CA,Launch_8,0,2,0.0
+WAF Activity Guide,Google Ad,All,All,0,0,0
+WAF Activity Guide,Google Ad,All,Launch_6,0,0,0
+WAF Activity Guide,Google Ad,All,Launch_7,0,0,0
+WAF Activity Guide,Google Ad,All,Launch_8,0,0,0
+WAF Activity Guide,Google Ad,US & CA,All,0,0,0
+WAF Activity Guide,Google Ad,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Google Ad,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Google Ad,US & CA,Launch_8,0,0,0
+WAF Activity Guide,Skillshare,All,All,0,0,0
+WAF Activity Guide,Skillshare,All,Launch_6,0,0,0
+WAF Activity Guide,Skillshare,All,Launch_7,0,0,0
+WAF Activity Guide,Skillshare,All,Launch_8,0,0,0
+WAF Activity Guide,Skillshare,US & CA,All,0,0,0
+WAF Activity Guide,Skillshare,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Skillshare,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Skillshare,US & CA,Launch_8,0,0,0
+WAF Activity Guide,Instagram,All,All,0,0,0
+WAF Activity Guide,Instagram,All,Launch_6,0,0,0
+WAF Activity Guide,Instagram,All,Launch_7,0,0,0
+WAF Activity Guide,Instagram,All,Launch_8,0,0,0
+WAF Activity Guide,Instagram,US & CA,All,0,0,0
+WAF Activity Guide,Instagram,US & CA,Launch_6,0,0,0
+WAF Activity Guide,Instagram,US & CA,Launch_7,0,0,0
+WAF Activity Guide,Instagram,US & CA,Launch_8,0,0,0
+MailChimp,All,All,All,106,8266,1.28
+MailChimp,All,All,Launch_6,6,929,0.65
+MailChimp,All,All,Launch_7,5,656,0.76
+MailChimp,All,All,Launch_8,7,594,1.18
+MailChimp,All,US & CA,All,73,3926,1.86
+MailChimp,All,US & CA,Launch_6,5,531,0.94
+MailChimp,All,US & CA,Launch_7,4,379,1.06
+MailChimp,All,US & CA,Launch_8,4,346,1.16
+MailChimp,Referral - Jake Parker,All,All,0,0,0
+MailChimp,Referral - Jake Parker,All,Launch_6,0,0,0
+MailChimp,Referral - Jake Parker,All,Launch_7,0,0,0
+MailChimp,Referral - Jake Parker,All,Launch_8,0,0,0
+MailChimp,Referral - Jake Parker,US & CA,All,0,0,0
+MailChimp,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+MailChimp,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+MailChimp,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+MailChimp,Manual,All,All,0,0,0
+MailChimp,Manual,All,Launch_6,0,0,0
+MailChimp,Manual,All,Launch_7,0,0,0
+MailChimp,Manual,All,Launch_8,0,0,0
+MailChimp,Manual,US & CA,All,0,0,0
+MailChimp,Manual,US & CA,Launch_6,0,0,0
+MailChimp,Manual,US & CA,Launch_7,0,0,0
+MailChimp,Manual,US & CA,Launch_8,0,0,0
+MailChimp,Twitter,All,All,0,0,0
+MailChimp,Twitter,All,Launch_6,0,0,0
+MailChimp,Twitter,All,Launch_7,0,0,0
+MailChimp,Twitter,All,Launch_8,0,0,0
+MailChimp,Twitter,US & CA,All,0,0,0
+MailChimp,Twitter,US & CA,Launch_6,0,0,0
+MailChimp,Twitter,US & CA,Launch_7,0,0,0
+MailChimp,Twitter,US & CA,Launch_8,0,0,0
+MailChimp,FB Ad,All,All,0,30,0.0
+MailChimp,FB Ad,All,Launch_6,0,3,0.0
+MailChimp,FB Ad,All,Launch_7,0,3,0.0
+MailChimp,FB Ad,All,Launch_8,0,3,0.0
+MailChimp,FB Ad,US & CA,All,0,8,0.0
+MailChimp,FB Ad,US & CA,Launch_6,0,1,0.0
+MailChimp,FB Ad,US & CA,Launch_7,0,1,0.0
+MailChimp,FB Ad,US & CA,Launch_8,0,1,0.0
+MailChimp,Facebook,All,All,0,0,0
+MailChimp,Facebook,All,Launch_6,0,0,0
+MailChimp,Facebook,All,Launch_7,0,0,0
+MailChimp,Facebook,All,Launch_8,0,0,0
+MailChimp,Facebook,US & CA,All,0,0,0
+MailChimp,Facebook,US & CA,Launch_6,0,0,0
+MailChimp,Facebook,US & CA,Launch_7,0,0,0
+MailChimp,Facebook,US & CA,Launch_8,0,0,0
+MailChimp,MailChimp,All,All,89,7721,1.15
+MailChimp,MailChimp,All,Launch_6,6,860,0.7
+MailChimp,MailChimp,All,Launch_7,4,595,0.67
+MailChimp,MailChimp,All,Launch_8,4,542,0.74
+MailChimp,MailChimp,US & CA,All,63,3621,1.74
+MailChimp,MailChimp,US & CA,Launch_6,5,492,1.02
+MailChimp,MailChimp,US & CA,Launch_7,4,345,1.16
+MailChimp,MailChimp,US & CA,Launch_8,2,316,0.63
+MailChimp,Unknown,All,All,0,0,0
+MailChimp,Unknown,All,Launch_6,0,0,0
+MailChimp,Unknown,All,Launch_7,0,0,0
+MailChimp,Unknown,All,Launch_8,0,0,0
+MailChimp,Unknown,US & CA,All,0,0,0
+MailChimp,Unknown,US & CA,Launch_6,0,0,0
+MailChimp,Unknown,US & CA,Launch_7,0,0,0
+MailChimp,Unknown,US & CA,Launch_8,0,0,0
+MailChimp,None,All,All,0,0,0
+MailChimp,None,All,Launch_6,0,0,0
+MailChimp,None,All,Launch_7,0,0,0
+MailChimp,None,All,Launch_8,0,0,0
+MailChimp,None,US & CA,All,0,0,0
+MailChimp,None,US & CA,Launch_6,0,0,0
+MailChimp,None,US & CA,Launch_7,0,0,0
+MailChimp,None,US & CA,Launch_8,0,0,0
+MailChimp,Medium,All,All,0,4,0.0
+MailChimp,Medium,All,Launch_6,0,1,0.0
+MailChimp,Medium,All,Launch_7,0,0,0
+MailChimp,Medium,All,Launch_8,0,0,0
+MailChimp,Medium,US & CA,All,0,0,0
+MailChimp,Medium,US & CA,Launch_6,0,0,0
+MailChimp,Medium,US & CA,Launch_7,0,0,0
+MailChimp,Medium,US & CA,Launch_8,0,0,0
+MailChimp,MCS Page,All,All,16,479,3.34
+MailChimp,MCS Page,All,Launch_6,0,61,0.0
+MailChimp,MCS Page,All,Launch_7,1,54,1.85
+MailChimp,MCS Page,All,Launch_8,3,45,6.67
+MailChimp,MCS Page,US & CA,All,10,291,3.44
+MailChimp,MCS Page,US & CA,Launch_6,0,37,0.0
+MailChimp,MCS Page,US & CA,Launch_7,0,32,0.0
+MailChimp,MCS Page,US & CA,Launch_8,2,28,7.14
+MailChimp,Google Ad,All,All,0,0,0
+MailChimp,Google Ad,All,Launch_6,0,0,0
+MailChimp,Google Ad,All,Launch_7,0,0,0
+MailChimp,Google Ad,All,Launch_8,0,0,0
+MailChimp,Google Ad,US & CA,All,0,0,0
+MailChimp,Google Ad,US & CA,Launch_6,0,0,0
+MailChimp,Google Ad,US & CA,Launch_7,0,0,0
+MailChimp,Google Ad,US & CA,Launch_8,0,0,0
+MailChimp,Skillshare,All,All,1,26,3.85
+MailChimp,Skillshare,All,Launch_6,0,3,0.0
+MailChimp,Skillshare,All,Launch_7,0,3,0.0
+MailChimp,Skillshare,All,Launch_8,0,3,0.0
+MailChimp,Skillshare,US & CA,All,0,0,0
+MailChimp,Skillshare,US & CA,Launch_6,0,0,0
+MailChimp,Skillshare,US & CA,Launch_7,0,0,0
+MailChimp,Skillshare,US & CA,Launch_8,0,0,0
+MailChimp,Instagram,All,All,0,6,0.0
+MailChimp,Instagram,All,Launch_6,0,1,0.0
+MailChimp,Instagram,All,Launch_7,0,1,0.0
+MailChimp,Instagram,All,Launch_8,0,1,0.0
+MailChimp,Instagram,US & CA,All,0,6,0.0
+MailChimp,Instagram,US & CA,Launch_6,0,1,0.0
+MailChimp,Instagram,US & CA,Launch_7,0,1,0.0
+MailChimp,Instagram,US & CA,Launch_8,0,1,0.0
+Unknown,All,All,All,13,4292,0.3
+Unknown,All,All,Launch_6,1,370,0.27
+Unknown,All,All,Launch_7,3,427,0.7
+Unknown,All,All,Launch_8,2,410,0.49
+Unknown,All,US & CA,All,8,1484,0.54
+Unknown,All,US & CA,Launch_6,0,103,0.0
+Unknown,All,US & CA,Launch_7,3,126,2.38
+Unknown,All,US & CA,Launch_8,2,107,1.87
+Unknown,Referral - Jake Parker,All,All,0,0,0
+Unknown,Referral - Jake Parker,All,Launch_6,0,0,0
+Unknown,Referral - Jake Parker,All,Launch_7,0,0,0
+Unknown,Referral - Jake Parker,All,Launch_8,0,0,0
+Unknown,Referral - Jake Parker,US & CA,All,0,0,0
+Unknown,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Unknown,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Unknown,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Unknown,Manual,All,All,0,0,0
+Unknown,Manual,All,Launch_6,0,0,0
+Unknown,Manual,All,Launch_7,0,0,0
+Unknown,Manual,All,Launch_8,0,0,0
+Unknown,Manual,US & CA,All,0,0,0
+Unknown,Manual,US & CA,Launch_6,0,0,0
+Unknown,Manual,US & CA,Launch_7,0,0,0
+Unknown,Manual,US & CA,Launch_8,0,0,0
+Unknown,Twitter,All,All,0,0,0
+Unknown,Twitter,All,Launch_6,0,0,0
+Unknown,Twitter,All,Launch_7,0,0,0
+Unknown,Twitter,All,Launch_8,0,0,0
+Unknown,Twitter,US & CA,All,0,0,0
+Unknown,Twitter,US & CA,Launch_6,0,0,0
+Unknown,Twitter,US & CA,Launch_7,0,0,0
+Unknown,Twitter,US & CA,Launch_8,0,0,0
+Unknown,FB Ad,All,All,2,1148,0.17
+Unknown,FB Ad,All,Launch_6,1,355,0.28
+Unknown,FB Ad,All,Launch_7,0,218,0.0
+Unknown,FB Ad,All,Launch_8,1,201,0.5
+Unknown,FB Ad,US & CA,All,1,304,0.33
+Unknown,FB Ad,US & CA,Launch_6,0,94,0.0
+Unknown,FB Ad,US & CA,Launch_7,0,60,0.0
+Unknown,FB Ad,US & CA,Launch_8,1,52,1.92
+Unknown,Facebook,All,All,0,20,0.0
+Unknown,Facebook,All,Launch_6,0,6,0.0
+Unknown,Facebook,All,Launch_7,0,5,0.0
+Unknown,Facebook,All,Launch_8,0,3,0.0
+Unknown,Facebook,US & CA,All,0,2,0.0
+Unknown,Facebook,US & CA,Launch_6,0,1,0.0
+Unknown,Facebook,US & CA,Launch_7,0,0,0
+Unknown,Facebook,US & CA,Launch_8,0,0,0
+Unknown,MailChimp,All,All,0,0,0
+Unknown,MailChimp,All,Launch_6,0,0,0
+Unknown,MailChimp,All,Launch_7,0,0,0
+Unknown,MailChimp,All,Launch_8,0,0,0
+Unknown,MailChimp,US & CA,All,0,0,0
+Unknown,MailChimp,US & CA,Launch_6,0,0,0
+Unknown,MailChimp,US & CA,Launch_7,0,0,0
+Unknown,MailChimp,US & CA,Launch_8,0,0,0
+Unknown,Unknown,All,All,9,2860,0.31
+Unknown,Unknown,All,Launch_6,0,8,0.0
+Unknown,Unknown,All,Launch_7,2,59,3.39
+Unknown,Unknown,All,Launch_8,0,93,0.0
+Unknown,Unknown,US & CA,All,5,1117,0.45
+Unknown,Unknown,US & CA,Launch_6,0,8,0.0
+Unknown,Unknown,US & CA,Launch_7,2,30,6.67
+Unknown,Unknown,US & CA,Launch_8,0,30,0.0
+Unknown,None,All,All,0,0,0
+Unknown,None,All,Launch_6,0,0,0
+Unknown,None,All,Launch_7,0,0,0
+Unknown,None,All,Launch_8,0,0,0
+Unknown,None,US & CA,All,0,0,0
+Unknown,None,US & CA,Launch_6,0,0,0
+Unknown,None,US & CA,Launch_7,0,0,0
+Unknown,None,US & CA,Launch_8,0,0,0
+Unknown,Medium,All,All,1,247,0.4
+Unknown,Medium,All,Launch_6,0,0,0
+Unknown,Medium,All,Launch_7,1,143,0.7
+Unknown,Medium,All,Launch_8,0,104,0.0
+Unknown,Medium,US & CA,All,1,58,1.72
+Unknown,Medium,US & CA,Launch_6,0,0,0
+Unknown,Medium,US & CA,Launch_7,1,35,2.86
+Unknown,Medium,US & CA,Launch_8,0,23,0.0
+Unknown,MCS Page,All,All,0,12,0.0
+Unknown,MCS Page,All,Launch_6,0,1,0.0
+Unknown,MCS Page,All,Launch_7,0,2,0.0
+Unknown,MCS Page,All,Launch_8,0,5,0.0
+Unknown,MCS Page,US & CA,All,0,2,0.0
+Unknown,MCS Page,US & CA,Launch_6,0,0,0
+Unknown,MCS Page,US & CA,Launch_7,0,1,0.0
+Unknown,MCS Page,US & CA,Launch_8,0,1,0.0
+Unknown,Google Ad,All,All,0,0,0
+Unknown,Google Ad,All,Launch_6,0,0,0
+Unknown,Google Ad,All,Launch_7,0,0,0
+Unknown,Google Ad,All,Launch_8,0,0,0
+Unknown,Google Ad,US & CA,All,0,0,0
+Unknown,Google Ad,US & CA,Launch_6,0,0,0
+Unknown,Google Ad,US & CA,Launch_7,0,0,0
+Unknown,Google Ad,US & CA,Launch_8,0,0,0
+Unknown,Skillshare,All,All,0,0,0
+Unknown,Skillshare,All,Launch_6,0,0,0
+Unknown,Skillshare,All,Launch_7,0,0,0
+Unknown,Skillshare,All,Launch_8,0,0,0
+Unknown,Skillshare,US & CA,All,0,0,0
+Unknown,Skillshare,US & CA,Launch_6,0,0,0
+Unknown,Skillshare,US & CA,Launch_7,0,0,0
+Unknown,Skillshare,US & CA,Launch_8,0,0,0
+Unknown,Instagram,All,All,0,1,0.0
+Unknown,Instagram,All,Launch_6,0,0,0
+Unknown,Instagram,All,Launch_7,0,0,0
+Unknown,Instagram,All,Launch_8,0,0,0
+Unknown,Instagram,US & CA,All,0,0,0
+Unknown,Instagram,US & CA,Launch_6,0,0,0
+Unknown,Instagram,US & CA,Launch_7,0,0,0
+Unknown,Instagram,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,All,All,All,1,18,5.56
+Sketchbook Mini-course,All,All,Launch_6,0,3,0.0
+Sketchbook Mini-course,All,All,Launch_7,0,3,0.0
+Sketchbook Mini-course,All,All,Launch_8,0,2,0.0
+Sketchbook Mini-course,All,US & CA,All,0,7,0.0
+Sketchbook Mini-course,All,US & CA,Launch_6,0,1,0.0
+Sketchbook Mini-course,All,US & CA,Launch_7,0,2,0.0
+Sketchbook Mini-course,All,US & CA,Launch_8,0,1,0.0
+Sketchbook Mini-course,Referral - Jake Parker,All,All,0,0,0
+Sketchbook Mini-course,Referral - Jake Parker,All,Launch_6,0,0,0
+Sketchbook Mini-course,Referral - Jake Parker,All,Launch_7,0,0,0
+Sketchbook Mini-course,Referral - Jake Parker,All,Launch_8,0,0,0
+Sketchbook Mini-course,Referral - Jake Parker,US & CA,All,0,0,0
+Sketchbook Mini-course,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,Manual,All,All,0,0,0
+Sketchbook Mini-course,Manual,All,Launch_6,0,0,0
+Sketchbook Mini-course,Manual,All,Launch_7,0,0,0
+Sketchbook Mini-course,Manual,All,Launch_8,0,0,0
+Sketchbook Mini-course,Manual,US & CA,All,0,0,0
+Sketchbook Mini-course,Manual,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Manual,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Manual,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,Twitter,All,All,0,0,0
+Sketchbook Mini-course,Twitter,All,Launch_6,0,0,0
+Sketchbook Mini-course,Twitter,All,Launch_7,0,0,0
+Sketchbook Mini-course,Twitter,All,Launch_8,0,0,0
+Sketchbook Mini-course,Twitter,US & CA,All,0,0,0
+Sketchbook Mini-course,Twitter,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Twitter,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Twitter,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,FB Ad,All,All,0,0,0
+Sketchbook Mini-course,FB Ad,All,Launch_6,0,0,0
+Sketchbook Mini-course,FB Ad,All,Launch_7,0,0,0
+Sketchbook Mini-course,FB Ad,All,Launch_8,0,0,0
+Sketchbook Mini-course,FB Ad,US & CA,All,0,0,0
+Sketchbook Mini-course,FB Ad,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,FB Ad,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,FB Ad,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,Facebook,All,All,0,0,0
+Sketchbook Mini-course,Facebook,All,Launch_6,0,0,0
+Sketchbook Mini-course,Facebook,All,Launch_7,0,0,0
+Sketchbook Mini-course,Facebook,All,Launch_8,0,0,0
+Sketchbook Mini-course,Facebook,US & CA,All,0,0,0
+Sketchbook Mini-course,Facebook,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Facebook,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Facebook,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,MailChimp,All,All,0,0,0
+Sketchbook Mini-course,MailChimp,All,Launch_6,0,0,0
+Sketchbook Mini-course,MailChimp,All,Launch_7,0,0,0
+Sketchbook Mini-course,MailChimp,All,Launch_8,0,0,0
+Sketchbook Mini-course,MailChimp,US & CA,All,0,0,0
+Sketchbook Mini-course,MailChimp,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,MailChimp,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,MailChimp,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,Unknown,All,All,0,1,0.0
+Sketchbook Mini-course,Unknown,All,Launch_6,0,0,0
+Sketchbook Mini-course,Unknown,All,Launch_7,0,1,0.0
+Sketchbook Mini-course,Unknown,All,Launch_8,0,0,0
+Sketchbook Mini-course,Unknown,US & CA,All,0,1,0.0
+Sketchbook Mini-course,Unknown,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Unknown,US & CA,Launch_7,0,1,0.0
+Sketchbook Mini-course,Unknown,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,None,All,All,0,0,0
+Sketchbook Mini-course,None,All,Launch_6,0,0,0
+Sketchbook Mini-course,None,All,Launch_7,0,0,0
+Sketchbook Mini-course,None,All,Launch_8,0,0,0
+Sketchbook Mini-course,None,US & CA,All,0,0,0
+Sketchbook Mini-course,None,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,None,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,None,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,Medium,All,All,0,0,0
+Sketchbook Mini-course,Medium,All,Launch_6,0,0,0
+Sketchbook Mini-course,Medium,All,Launch_7,0,0,0
+Sketchbook Mini-course,Medium,All,Launch_8,0,0,0
+Sketchbook Mini-course,Medium,US & CA,All,0,0,0
+Sketchbook Mini-course,Medium,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Medium,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Medium,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,MCS Page,All,All,1,17,5.88
+Sketchbook Mini-course,MCS Page,All,Launch_6,0,3,0.0
+Sketchbook Mini-course,MCS Page,All,Launch_7,0,2,0.0
+Sketchbook Mini-course,MCS Page,All,Launch_8,0,2,0.0
+Sketchbook Mini-course,MCS Page,US & CA,All,0,6,0.0
+Sketchbook Mini-course,MCS Page,US & CA,Launch_6,0,1,0.0
+Sketchbook Mini-course,MCS Page,US & CA,Launch_7,0,1,0.0
+Sketchbook Mini-course,MCS Page,US & CA,Launch_8,0,1,0.0
+Sketchbook Mini-course,Google Ad,All,All,0,0,0
+Sketchbook Mini-course,Google Ad,All,Launch_6,0,0,0
+Sketchbook Mini-course,Google Ad,All,Launch_7,0,0,0
+Sketchbook Mini-course,Google Ad,All,Launch_8,0,0,0
+Sketchbook Mini-course,Google Ad,US & CA,All,0,0,0
+Sketchbook Mini-course,Google Ad,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Google Ad,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Google Ad,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,Skillshare,All,All,0,0,0
+Sketchbook Mini-course,Skillshare,All,Launch_6,0,0,0
+Sketchbook Mini-course,Skillshare,All,Launch_7,0,0,0
+Sketchbook Mini-course,Skillshare,All,Launch_8,0,0,0
+Sketchbook Mini-course,Skillshare,US & CA,All,0,0,0
+Sketchbook Mini-course,Skillshare,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Skillshare,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Skillshare,US & CA,Launch_8,0,0,0
+Sketchbook Mini-course,Instagram,All,All,0,0,0
+Sketchbook Mini-course,Instagram,All,Launch_6,0,0,0
+Sketchbook Mini-course,Instagram,All,Launch_7,0,0,0
+Sketchbook Mini-course,Instagram,All,Launch_8,0,0,0
+Sketchbook Mini-course,Instagram,US & CA,All,0,0,0
+Sketchbook Mini-course,Instagram,US & CA,Launch_6,0,0,0
+Sketchbook Mini-course,Instagram,US & CA,Launch_7,0,0,0
+Sketchbook Mini-course,Instagram,US & CA,Launch_8,0,0,0
+WAF ebook,All,All,All,7,310,2.26
+WAF ebook,All,All,Launch_6,2,61,3.28
+WAF ebook,All,All,Launch_7,5,76,6.58
+WAF ebook,All,All,Launch_8,0,63,0.0
+WAF ebook,All,US & CA,All,3,134,2.24
+WAF ebook,All,US & CA,Launch_6,1,25,4.0
+WAF ebook,All,US & CA,Launch_7,2,31,6.45
+WAF ebook,All,US & CA,Launch_8,0,25,0.0
+WAF ebook,Referral - Jake Parker,All,All,1,6,16.67
+WAF ebook,Referral - Jake Parker,All,Launch_6,0,0,0
+WAF ebook,Referral - Jake Parker,All,Launch_7,1,4,25.0
+WAF ebook,Referral - Jake Parker,All,Launch_8,0,2,0.0
+WAF ebook,Referral - Jake Parker,US & CA,All,0,4,0.0
+WAF ebook,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+WAF ebook,Referral - Jake Parker,US & CA,Launch_7,0,2,0.0
+WAF ebook,Referral - Jake Parker,US & CA,Launch_8,0,2,0.0
+WAF ebook,Manual,All,All,0,0,0
+WAF ebook,Manual,All,Launch_6,0,0,0
+WAF ebook,Manual,All,Launch_7,0,0,0
+WAF ebook,Manual,All,Launch_8,0,0,0
+WAF ebook,Manual,US & CA,All,0,0,0
+WAF ebook,Manual,US & CA,Launch_6,0,0,0
+WAF ebook,Manual,US & CA,Launch_7,0,0,0
+WAF ebook,Manual,US & CA,Launch_8,0,0,0
+WAF ebook,Twitter,All,All,0,0,0
+WAF ebook,Twitter,All,Launch_6,0,0,0
+WAF ebook,Twitter,All,Launch_7,0,0,0
+WAF ebook,Twitter,All,Launch_8,0,0,0
+WAF ebook,Twitter,US & CA,All,0,0,0
+WAF ebook,Twitter,US & CA,Launch_6,0,0,0
+WAF ebook,Twitter,US & CA,Launch_7,0,0,0
+WAF ebook,Twitter,US & CA,Launch_8,0,0,0
+WAF ebook,FB Ad,All,All,1,22,4.55
+WAF ebook,FB Ad,All,Launch_6,0,4,0.0
+WAF ebook,FB Ad,All,Launch_7,1,7,14.29
+WAF ebook,FB Ad,All,Launch_8,0,7,0.0
+WAF ebook,FB Ad,US & CA,All,0,6,0.0
+WAF ebook,FB Ad,US & CA,Launch_6,0,0,0
+WAF ebook,FB Ad,US & CA,Launch_7,0,2,0.0
+WAF ebook,FB Ad,US & CA,Launch_8,0,3,0.0
+WAF ebook,Facebook,All,All,0,0,0
+WAF ebook,Facebook,All,Launch_6,0,0,0
+WAF ebook,Facebook,All,Launch_7,0,0,0
+WAF ebook,Facebook,All,Launch_8,0,0,0
+WAF ebook,Facebook,US & CA,All,0,0,0
+WAF ebook,Facebook,US & CA,Launch_6,0,0,0
+WAF ebook,Facebook,US & CA,Launch_7,0,0,0
+WAF ebook,Facebook,US & CA,Launch_8,0,0,0
+WAF ebook,MailChimp,All,All,0,8,0.0
+WAF ebook,MailChimp,All,Launch_6,0,1,0.0
+WAF ebook,MailChimp,All,Launch_7,0,1,0.0
+WAF ebook,MailChimp,All,Launch_8,0,1,0.0
+WAF ebook,MailChimp,US & CA,All,0,0,0
+WAF ebook,MailChimp,US & CA,Launch_6,0,0,0
+WAF ebook,MailChimp,US & CA,Launch_7,0,0,0
+WAF ebook,MailChimp,US & CA,Launch_8,0,0,0
+WAF ebook,Unknown,All,All,1,3,33.33
+WAF ebook,Unknown,All,Launch_6,1,1,100.0
+WAF ebook,Unknown,All,Launch_7,0,1,0.0
+WAF ebook,Unknown,All,Launch_8,0,1,0.0
+WAF ebook,Unknown,US & CA,All,1,1,100.0
+WAF ebook,Unknown,US & CA,Launch_6,1,1,100.0
+WAF ebook,Unknown,US & CA,Launch_7,0,0,0
+WAF ebook,Unknown,US & CA,Launch_8,0,0,0
+WAF ebook,None,All,All,0,0,0
+WAF ebook,None,All,Launch_6,0,0,0
+WAF ebook,None,All,Launch_7,0,0,0
+WAF ebook,None,All,Launch_8,0,0,0
+WAF ebook,None,US & CA,All,0,0,0
+WAF ebook,None,US & CA,Launch_6,0,0,0
+WAF ebook,None,US & CA,Launch_7,0,0,0
+WAF ebook,None,US & CA,Launch_8,0,0,0
+WAF ebook,Medium,All,All,0,2,0.0
+WAF ebook,Medium,All,Launch_6,0,0,0
+WAF ebook,Medium,All,Launch_7,0,1,0.0
+WAF ebook,Medium,All,Launch_8,0,1,0.0
+WAF ebook,Medium,US & CA,All,0,0,0
+WAF ebook,Medium,US & CA,Launch_6,0,0,0
+WAF ebook,Medium,US & CA,Launch_7,0,0,0
+WAF ebook,Medium,US & CA,Launch_8,0,0,0
+WAF ebook,MCS Page,All,All,4,261,1.53
+WAF ebook,MCS Page,All,Launch_6,1,55,1.82
+WAF ebook,MCS Page,All,Launch_7,3,58,5.17
+WAF ebook,MCS Page,All,Launch_8,0,47,0.0
+WAF ebook,MCS Page,US & CA,All,2,121,1.65
+WAF ebook,MCS Page,US & CA,Launch_6,0,24,0.0
+WAF ebook,MCS Page,US & CA,Launch_7,2,26,7.69
+WAF ebook,MCS Page,US & CA,Launch_8,0,19,0.0
+WAF ebook,Google Ad,All,All,0,4,0.0
+WAF ebook,Google Ad,All,Launch_6,0,0,0
+WAF ebook,Google Ad,All,Launch_7,0,2,0.0
+WAF ebook,Google Ad,All,Launch_8,0,2,0.0
+WAF ebook,Google Ad,US & CA,All,0,2,0.0
+WAF ebook,Google Ad,US & CA,Launch_6,0,0,0
+WAF ebook,Google Ad,US & CA,Launch_7,0,1,0.0
+WAF ebook,Google Ad,US & CA,Launch_8,0,1,0.0
+WAF ebook,Skillshare,All,All,0,2,0.0
+WAF ebook,Skillshare,All,Launch_6,0,0,0
+WAF ebook,Skillshare,All,Launch_7,0,1,0.0
+WAF ebook,Skillshare,All,Launch_8,0,1,0.0
+WAF ebook,Skillshare,US & CA,All,0,0,0
+WAF ebook,Skillshare,US & CA,Launch_6,0,0,0
+WAF ebook,Skillshare,US & CA,Launch_7,0,0,0
+WAF ebook,Skillshare,US & CA,Launch_8,0,0,0
+WAF ebook,Instagram,All,All,0,2,0.0
+WAF ebook,Instagram,All,Launch_6,0,0,0
+WAF ebook,Instagram,All,Launch_7,0,1,0.0
+WAF ebook,Instagram,All,Launch_8,0,1,0.0
+WAF ebook,Instagram,US & CA,All,0,0,0
+WAF ebook,Instagram,US & CA,Launch_6,0,0,0
+WAF ebook,Instagram,US & CA,Launch_7,0,0,0
+WAF ebook,Instagram,US & CA,Launch_8,0,0,0
+Book Making,All,All,All,0,6,0.0
+Book Making,All,All,Launch_6,0,1,0.0
+Book Making,All,All,Launch_7,0,1,0.0
+Book Making,All,All,Launch_8,0,1,0.0
+Book Making,All,US & CA,All,0,6,0.0
+Book Making,All,US & CA,Launch_6,0,1,0.0
+Book Making,All,US & CA,Launch_7,0,1,0.0
+Book Making,All,US & CA,Launch_8,0,1,0.0
+Book Making,Referral - Jake Parker,All,All,0,0,0
+Book Making,Referral - Jake Parker,All,Launch_6,0,0,0
+Book Making,Referral - Jake Parker,All,Launch_7,0,0,0
+Book Making,Referral - Jake Parker,All,Launch_8,0,0,0
+Book Making,Referral - Jake Parker,US & CA,All,0,0,0
+Book Making,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Book Making,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Book Making,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Book Making,Manual,All,All,0,0,0
+Book Making,Manual,All,Launch_6,0,0,0
+Book Making,Manual,All,Launch_7,0,0,0
+Book Making,Manual,All,Launch_8,0,0,0
+Book Making,Manual,US & CA,All,0,0,0
+Book Making,Manual,US & CA,Launch_6,0,0,0
+Book Making,Manual,US & CA,Launch_7,0,0,0
+Book Making,Manual,US & CA,Launch_8,0,0,0
+Book Making,Twitter,All,All,0,0,0
+Book Making,Twitter,All,Launch_6,0,0,0
+Book Making,Twitter,All,Launch_7,0,0,0
+Book Making,Twitter,All,Launch_8,0,0,0
+Book Making,Twitter,US & CA,All,0,0,0
+Book Making,Twitter,US & CA,Launch_6,0,0,0
+Book Making,Twitter,US & CA,Launch_7,0,0,0
+Book Making,Twitter,US & CA,Launch_8,0,0,0
+Book Making,FB Ad,All,All,0,0,0
+Book Making,FB Ad,All,Launch_6,0,0,0
+Book Making,FB Ad,All,Launch_7,0,0,0
+Book Making,FB Ad,All,Launch_8,0,0,0
+Book Making,FB Ad,US & CA,All,0,0,0
+Book Making,FB Ad,US & CA,Launch_6,0,0,0
+Book Making,FB Ad,US & CA,Launch_7,0,0,0
+Book Making,FB Ad,US & CA,Launch_8,0,0,0
+Book Making,Facebook,All,All,0,0,0
+Book Making,Facebook,All,Launch_6,0,0,0
+Book Making,Facebook,All,Launch_7,0,0,0
+Book Making,Facebook,All,Launch_8,0,0,0
+Book Making,Facebook,US & CA,All,0,0,0
+Book Making,Facebook,US & CA,Launch_6,0,0,0
+Book Making,Facebook,US & CA,Launch_7,0,0,0
+Book Making,Facebook,US & CA,Launch_8,0,0,0
+Book Making,MailChimp,All,All,0,0,0
+Book Making,MailChimp,All,Launch_6,0,0,0
+Book Making,MailChimp,All,Launch_7,0,0,0
+Book Making,MailChimp,All,Launch_8,0,0,0
+Book Making,MailChimp,US & CA,All,0,0,0
+Book Making,MailChimp,US & CA,Launch_6,0,0,0
+Book Making,MailChimp,US & CA,Launch_7,0,0,0
+Book Making,MailChimp,US & CA,Launch_8,0,0,0
+Book Making,Unknown,All,All,0,0,0
+Book Making,Unknown,All,Launch_6,0,0,0
+Book Making,Unknown,All,Launch_7,0,0,0
+Book Making,Unknown,All,Launch_8,0,0,0
+Book Making,Unknown,US & CA,All,0,0,0
+Book Making,Unknown,US & CA,Launch_6,0,0,0
+Book Making,Unknown,US & CA,Launch_7,0,0,0
+Book Making,Unknown,US & CA,Launch_8,0,0,0
+Book Making,None,All,All,0,0,0
+Book Making,None,All,Launch_6,0,0,0
+Book Making,None,All,Launch_7,0,0,0
+Book Making,None,All,Launch_8,0,0,0
+Book Making,None,US & CA,All,0,0,0
+Book Making,None,US & CA,Launch_6,0,0,0
+Book Making,None,US & CA,Launch_7,0,0,0
+Book Making,None,US & CA,Launch_8,0,0,0
+Book Making,Medium,All,All,0,0,0
+Book Making,Medium,All,Launch_6,0,0,0
+Book Making,Medium,All,Launch_7,0,0,0
+Book Making,Medium,All,Launch_8,0,0,0
+Book Making,Medium,US & CA,All,0,0,0
+Book Making,Medium,US & CA,Launch_6,0,0,0
+Book Making,Medium,US & CA,Launch_7,0,0,0
+Book Making,Medium,US & CA,Launch_8,0,0,0
+Book Making,MCS Page,All,All,0,6,0.0
+Book Making,MCS Page,All,Launch_6,0,1,0.0
+Book Making,MCS Page,All,Launch_7,0,1,0.0
+Book Making,MCS Page,All,Launch_8,0,1,0.0
+Book Making,MCS Page,US & CA,All,0,6,0.0
+Book Making,MCS Page,US & CA,Launch_6,0,1,0.0
+Book Making,MCS Page,US & CA,Launch_7,0,1,0.0
+Book Making,MCS Page,US & CA,Launch_8,0,1,0.0
+Book Making,Google Ad,All,All,0,0,0
+Book Making,Google Ad,All,Launch_6,0,0,0
+Book Making,Google Ad,All,Launch_7,0,0,0
+Book Making,Google Ad,All,Launch_8,0,0,0
+Book Making,Google Ad,US & CA,All,0,0,0
+Book Making,Google Ad,US & CA,Launch_6,0,0,0
+Book Making,Google Ad,US & CA,Launch_7,0,0,0
+Book Making,Google Ad,US & CA,Launch_8,0,0,0
+Book Making,Skillshare,All,All,0,0,0
+Book Making,Skillshare,All,Launch_6,0,0,0
+Book Making,Skillshare,All,Launch_7,0,0,0
+Book Making,Skillshare,All,Launch_8,0,0,0
+Book Making,Skillshare,US & CA,All,0,0,0
+Book Making,Skillshare,US & CA,Launch_6,0,0,0
+Book Making,Skillshare,US & CA,Launch_7,0,0,0
+Book Making,Skillshare,US & CA,Launch_8,0,0,0
+Book Making,Instagram,All,All,0,0,0
+Book Making,Instagram,All,Launch_6,0,0,0
+Book Making,Instagram,All,Launch_7,0,0,0
+Book Making,Instagram,All,Launch_8,0,0,0
+Book Making,Instagram,US & CA,All,0,0,0
+Book Making,Instagram,US & CA,Launch_6,0,0,0
+Book Making,Instagram,US & CA,Launch_7,0,0,0
+Book Making,Instagram,US & CA,Launch_8,0,0,0
+StSBC WL,All,All,All,2,45,4.44
+StSBC WL,All,All,Launch_6,0,0,0
+StSBC WL,All,All,Launch_7,1,18,5.56
+StSBC WL,All,All,Launch_8,1,26,3.85
+StSBC WL,All,US & CA,All,1,25,4.0
+StSBC WL,All,US & CA,Launch_6,0,0,0
+StSBC WL,All,US & CA,Launch_7,0,11,0.0
+StSBC WL,All,US & CA,Launch_8,1,14,7.14
+StSBC WL,Referral - Jake Parker,All,All,0,0,0
+StSBC WL,Referral - Jake Parker,All,Launch_6,0,0,0
+StSBC WL,Referral - Jake Parker,All,Launch_7,0,0,0
+StSBC WL,Referral - Jake Parker,All,Launch_8,0,0,0
+StSBC WL,Referral - Jake Parker,US & CA,All,0,0,0
+StSBC WL,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+StSBC WL,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+StSBC WL,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+StSBC WL,Manual,All,All,0,0,0
+StSBC WL,Manual,All,Launch_6,0,0,0
+StSBC WL,Manual,All,Launch_7,0,0,0
+StSBC WL,Manual,All,Launch_8,0,0,0
+StSBC WL,Manual,US & CA,All,0,0,0
+StSBC WL,Manual,US & CA,Launch_6,0,0,0
+StSBC WL,Manual,US & CA,Launch_7,0,0,0
+StSBC WL,Manual,US & CA,Launch_8,0,0,0
+StSBC WL,Twitter,All,All,0,0,0
+StSBC WL,Twitter,All,Launch_6,0,0,0
+StSBC WL,Twitter,All,Launch_7,0,0,0
+StSBC WL,Twitter,All,Launch_8,0,0,0
+StSBC WL,Twitter,US & CA,All,0,0,0
+StSBC WL,Twitter,US & CA,Launch_6,0,0,0
+StSBC WL,Twitter,US & CA,Launch_7,0,0,0
+StSBC WL,Twitter,US & CA,Launch_8,0,0,0
+StSBC WL,FB Ad,All,All,0,0,0
+StSBC WL,FB Ad,All,Launch_6,0,0,0
+StSBC WL,FB Ad,All,Launch_7,0,0,0
+StSBC WL,FB Ad,All,Launch_8,0,0,0
+StSBC WL,FB Ad,US & CA,All,0,0,0
+StSBC WL,FB Ad,US & CA,Launch_6,0,0,0
+StSBC WL,FB Ad,US & CA,Launch_7,0,0,0
+StSBC WL,FB Ad,US & CA,Launch_8,0,0,0
+StSBC WL,Facebook,All,All,0,0,0
+StSBC WL,Facebook,All,Launch_6,0,0,0
+StSBC WL,Facebook,All,Launch_7,0,0,0
+StSBC WL,Facebook,All,Launch_8,0,0,0
+StSBC WL,Facebook,US & CA,All,0,0,0
+StSBC WL,Facebook,US & CA,Launch_6,0,0,0
+StSBC WL,Facebook,US & CA,Launch_7,0,0,0
+StSBC WL,Facebook,US & CA,Launch_8,0,0,0
+StSBC WL,MailChimp,All,All,0,0,0
+StSBC WL,MailChimp,All,Launch_6,0,0,0
+StSBC WL,MailChimp,All,Launch_7,0,0,0
+StSBC WL,MailChimp,All,Launch_8,0,0,0
+StSBC WL,MailChimp,US & CA,All,0,0,0
+StSBC WL,MailChimp,US & CA,Launch_6,0,0,0
+StSBC WL,MailChimp,US & CA,Launch_7,0,0,0
+StSBC WL,MailChimp,US & CA,Launch_8,0,0,0
+StSBC WL,Unknown,All,All,1,13,7.69
+StSBC WL,Unknown,All,Launch_6,0,0,0
+StSBC WL,Unknown,All,Launch_7,1,9,11.11
+StSBC WL,Unknown,All,Launch_8,0,4,0.0
+StSBC WL,Unknown,US & CA,All,0,7,0.0
+StSBC WL,Unknown,US & CA,Launch_6,0,0,0
+StSBC WL,Unknown,US & CA,Launch_7,0,5,0.0
+StSBC WL,Unknown,US & CA,Launch_8,0,2,0.0
+StSBC WL,None,All,All,0,0,0
+StSBC WL,None,All,Launch_6,0,0,0
+StSBC WL,None,All,Launch_7,0,0,0
+StSBC WL,None,All,Launch_8,0,0,0
+StSBC WL,None,US & CA,All,0,0,0
+StSBC WL,None,US & CA,Launch_6,0,0,0
+StSBC WL,None,US & CA,Launch_7,0,0,0
+StSBC WL,None,US & CA,Launch_8,0,0,0
+StSBC WL,Medium,All,All,0,0,0
+StSBC WL,Medium,All,Launch_6,0,0,0
+StSBC WL,Medium,All,Launch_7,0,0,0
+StSBC WL,Medium,All,Launch_8,0,0,0
+StSBC WL,Medium,US & CA,All,0,0,0
+StSBC WL,Medium,US & CA,Launch_6,0,0,0
+StSBC WL,Medium,US & CA,Launch_7,0,0,0
+StSBC WL,Medium,US & CA,Launch_8,0,0,0
+StSBC WL,MCS Page,All,All,1,32,3.12
+StSBC WL,MCS Page,All,Launch_6,0,0,0
+StSBC WL,MCS Page,All,Launch_7,0,9,0.0
+StSBC WL,MCS Page,All,Launch_8,1,22,4.55
+StSBC WL,MCS Page,US & CA,All,1,18,5.56
+StSBC WL,MCS Page,US & CA,Launch_6,0,0,0
+StSBC WL,MCS Page,US & CA,Launch_7,0,6,0.0
+StSBC WL,MCS Page,US & CA,Launch_8,1,12,8.33
+StSBC WL,Google Ad,All,All,0,0,0
+StSBC WL,Google Ad,All,Launch_6,0,0,0
+StSBC WL,Google Ad,All,Launch_7,0,0,0
+StSBC WL,Google Ad,All,Launch_8,0,0,0
+StSBC WL,Google Ad,US & CA,All,0,0,0
+StSBC WL,Google Ad,US & CA,Launch_6,0,0,0
+StSBC WL,Google Ad,US & CA,Launch_7,0,0,0
+StSBC WL,Google Ad,US & CA,Launch_8,0,0,0
+StSBC WL,Skillshare,All,All,0,0,0
+StSBC WL,Skillshare,All,Launch_6,0,0,0
+StSBC WL,Skillshare,All,Launch_7,0,0,0
+StSBC WL,Skillshare,All,Launch_8,0,0,0
+StSBC WL,Skillshare,US & CA,All,0,0,0
+StSBC WL,Skillshare,US & CA,Launch_6,0,0,0
+StSBC WL,Skillshare,US & CA,Launch_7,0,0,0
+StSBC WL,Skillshare,US & CA,Launch_8,0,0,0
+StSBC WL,Instagram,All,All,0,0,0
+StSBC WL,Instagram,All,Launch_6,0,0,0
+StSBC WL,Instagram,All,Launch_7,0,0,0
+StSBC WL,Instagram,All,Launch_8,0,0,0
+StSBC WL,Instagram,US & CA,All,0,0,0
+StSBC WL,Instagram,US & CA,Launch_6,0,0,0
+StSBC WL,Instagram,US & CA,Launch_7,0,0,0
+StSBC WL,Instagram,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,All,All,All,5,12,41.67
+Sketchbook to Style Boot Camp,All,All,Launch_6,4,10,40.0
+Sketchbook to Style Boot Camp,All,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,All,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,All,US & CA,All,3,7,42.86
+Sketchbook to Style Boot Camp,All,US & CA,Launch_6,2,5,40.0
+Sketchbook to Style Boot Camp,All,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,All,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,All,All,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Manual,All,All,0,0,0
+Sketchbook to Style Boot Camp,Manual,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Manual,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Manual,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Manual,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Manual,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Manual,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Manual,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Twitter,All,All,0,0,0
+Sketchbook to Style Boot Camp,Twitter,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Twitter,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Twitter,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Twitter,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Twitter,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Twitter,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Twitter,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,All,All,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,FB Ad,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Facebook,All,All,0,0,0
+Sketchbook to Style Boot Camp,Facebook,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Facebook,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Facebook,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Facebook,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Facebook,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Facebook,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Facebook,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,All,All,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,MailChimp,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Unknown,All,All,5,12,41.67
+Sketchbook to Style Boot Camp,Unknown,All,Launch_6,4,10,40.0
+Sketchbook to Style Boot Camp,Unknown,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Unknown,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Unknown,US & CA,All,3,7,42.86
+Sketchbook to Style Boot Camp,Unknown,US & CA,Launch_6,2,5,40.0
+Sketchbook to Style Boot Camp,Unknown,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Unknown,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,None,All,All,0,0,0
+Sketchbook to Style Boot Camp,None,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,None,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,None,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,None,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,None,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,None,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,None,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Medium,All,All,0,0,0
+Sketchbook to Style Boot Camp,Medium,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Medium,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Medium,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Medium,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Medium,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Medium,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Medium,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,All,All,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,MCS Page,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,All,All,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Google Ad,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,All,All,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Skillshare,US & CA,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Instagram,All,All,0,0,0
+Sketchbook to Style Boot Camp,Instagram,All,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Instagram,All,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Instagram,All,Launch_8,0,0,0
+Sketchbook to Style Boot Camp,Instagram,US & CA,All,0,0,0
+Sketchbook to Style Boot Camp,Instagram,US & CA,Launch_6,0,0,0
+Sketchbook to Style Boot Camp,Instagram,US & CA,Launch_7,0,0,0
+Sketchbook to Style Boot Camp,Instagram,US & CA,Launch_8,0,0,0
+Studiomates WL,All,All,All,0,149,0.0
+Studiomates WL,All,All,Launch_6,0,35,0.0
+Studiomates WL,All,All,Launch_7,0,30,0.0
+Studiomates WL,All,All,Launch_8,0,29,0.0
+Studiomates WL,All,US & CA,All,0,95,0.0
+Studiomates WL,All,US & CA,Launch_6,0,23,0.0
+Studiomates WL,All,US & CA,Launch_7,0,18,0.0
+Studiomates WL,All,US & CA,Launch_8,0,17,0.0
+Studiomates WL,Referral - Jake Parker,All,All,0,0,0
+Studiomates WL,Referral - Jake Parker,All,Launch_6,0,0,0
+Studiomates WL,Referral - Jake Parker,All,Launch_7,0,0,0
+Studiomates WL,Referral - Jake Parker,All,Launch_8,0,0,0
+Studiomates WL,Referral - Jake Parker,US & CA,All,0,0,0
+Studiomates WL,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Studiomates WL,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Studiomates WL,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Studiomates WL,Manual,All,All,0,0,0
+Studiomates WL,Manual,All,Launch_6,0,0,0
+Studiomates WL,Manual,All,Launch_7,0,0,0
+Studiomates WL,Manual,All,Launch_8,0,0,0
+Studiomates WL,Manual,US & CA,All,0,0,0
+Studiomates WL,Manual,US & CA,Launch_6,0,0,0
+Studiomates WL,Manual,US & CA,Launch_7,0,0,0
+Studiomates WL,Manual,US & CA,Launch_8,0,0,0
+Studiomates WL,Twitter,All,All,0,0,0
+Studiomates WL,Twitter,All,Launch_6,0,0,0
+Studiomates WL,Twitter,All,Launch_7,0,0,0
+Studiomates WL,Twitter,All,Launch_8,0,0,0
+Studiomates WL,Twitter,US & CA,All,0,0,0
+Studiomates WL,Twitter,US & CA,Launch_6,0,0,0
+Studiomates WL,Twitter,US & CA,Launch_7,0,0,0
+Studiomates WL,Twitter,US & CA,Launch_8,0,0,0
+Studiomates WL,FB Ad,All,All,0,0,0
+Studiomates WL,FB Ad,All,Launch_6,0,0,0
+Studiomates WL,FB Ad,All,Launch_7,0,0,0
+Studiomates WL,FB Ad,All,Launch_8,0,0,0
+Studiomates WL,FB Ad,US & CA,All,0,0,0
+Studiomates WL,FB Ad,US & CA,Launch_6,0,0,0
+Studiomates WL,FB Ad,US & CA,Launch_7,0,0,0
+Studiomates WL,FB Ad,US & CA,Launch_8,0,0,0
+Studiomates WL,Facebook,All,All,0,0,0
+Studiomates WL,Facebook,All,Launch_6,0,0,0
+Studiomates WL,Facebook,All,Launch_7,0,0,0
+Studiomates WL,Facebook,All,Launch_8,0,0,0
+Studiomates WL,Facebook,US & CA,All,0,0,0
+Studiomates WL,Facebook,US & CA,Launch_6,0,0,0
+Studiomates WL,Facebook,US & CA,Launch_7,0,0,0
+Studiomates WL,Facebook,US & CA,Launch_8,0,0,0
+Studiomates WL,MailChimp,All,All,0,0,0
+Studiomates WL,MailChimp,All,Launch_6,0,0,0
+Studiomates WL,MailChimp,All,Launch_7,0,0,0
+Studiomates WL,MailChimp,All,Launch_8,0,0,0
+Studiomates WL,MailChimp,US & CA,All,0,0,0
+Studiomates WL,MailChimp,US & CA,Launch_6,0,0,0
+Studiomates WL,MailChimp,US & CA,Launch_7,0,0,0
+Studiomates WL,MailChimp,US & CA,Launch_8,0,0,0
+Studiomates WL,Unknown,All,All,0,4,0.0
+Studiomates WL,Unknown,All,Launch_6,0,1,0.0
+Studiomates WL,Unknown,All,Launch_7,0,1,0.0
+Studiomates WL,Unknown,All,Launch_8,0,1,0.0
+Studiomates WL,Unknown,US & CA,All,0,4,0.0
+Studiomates WL,Unknown,US & CA,Launch_6,0,1,0.0
+Studiomates WL,Unknown,US & CA,Launch_7,0,1,0.0
+Studiomates WL,Unknown,US & CA,Launch_8,0,1,0.0
+Studiomates WL,None,All,All,0,0,0
+Studiomates WL,None,All,Launch_6,0,0,0
+Studiomates WL,None,All,Launch_7,0,0,0
+Studiomates WL,None,All,Launch_8,0,0,0
+Studiomates WL,None,US & CA,All,0,0,0
+Studiomates WL,None,US & CA,Launch_6,0,0,0
+Studiomates WL,None,US & CA,Launch_7,0,0,0
+Studiomates WL,None,US & CA,Launch_8,0,0,0
+Studiomates WL,Medium,All,All,0,0,0
+Studiomates WL,Medium,All,Launch_6,0,0,0
+Studiomates WL,Medium,All,Launch_7,0,0,0
+Studiomates WL,Medium,All,Launch_8,0,0,0
+Studiomates WL,Medium,US & CA,All,0,0,0
+Studiomates WL,Medium,US & CA,Launch_6,0,0,0
+Studiomates WL,Medium,US & CA,Launch_7,0,0,0
+Studiomates WL,Medium,US & CA,Launch_8,0,0,0
+Studiomates WL,MCS Page,All,All,0,145,0.0
+Studiomates WL,MCS Page,All,Launch_6,0,34,0.0
+Studiomates WL,MCS Page,All,Launch_7,0,29,0.0
+Studiomates WL,MCS Page,All,Launch_8,0,28,0.0
+Studiomates WL,MCS Page,US & CA,All,0,91,0.0
+Studiomates WL,MCS Page,US & CA,Launch_6,0,22,0.0
+Studiomates WL,MCS Page,US & CA,Launch_7,0,17,0.0
+Studiomates WL,MCS Page,US & CA,Launch_8,0,16,0.0
+Studiomates WL,Google Ad,All,All,0,0,0
+Studiomates WL,Google Ad,All,Launch_6,0,0,0
+Studiomates WL,Google Ad,All,Launch_7,0,0,0
+Studiomates WL,Google Ad,All,Launch_8,0,0,0
+Studiomates WL,Google Ad,US & CA,All,0,0,0
+Studiomates WL,Google Ad,US & CA,Launch_6,0,0,0
+Studiomates WL,Google Ad,US & CA,Launch_7,0,0,0
+Studiomates WL,Google Ad,US & CA,Launch_8,0,0,0
+Studiomates WL,Skillshare,All,All,0,0,0
+Studiomates WL,Skillshare,All,Launch_6,0,0,0
+Studiomates WL,Skillshare,All,Launch_7,0,0,0
+Studiomates WL,Skillshare,All,Launch_8,0,0,0
+Studiomates WL,Skillshare,US & CA,All,0,0,0
+Studiomates WL,Skillshare,US & CA,Launch_6,0,0,0
+Studiomates WL,Skillshare,US & CA,Launch_7,0,0,0
+Studiomates WL,Skillshare,US & CA,Launch_8,0,0,0
+Studiomates WL,Instagram,All,All,0,0,0
+Studiomates WL,Instagram,All,Launch_6,0,0,0
+Studiomates WL,Instagram,All,Launch_7,0,0,0
+Studiomates WL,Instagram,All,Launch_8,0,0,0
+Studiomates WL,Instagram,US & CA,All,0,0,0
+Studiomates WL,Instagram,US & CA,Launch_6,0,0,0
+Studiomates WL,Instagram,US & CA,Launch_7,0,0,0
+Studiomates WL,Instagram,US & CA,Launch_8,0,0,0
+Influence Map,All,All,All,76,21231,0.36
+Influence Map,All,All,Launch_6,16,5608,0.29
+Influence Map,All,All,Launch_7,19,5503,0.35
+Influence Map,All,All,Launch_8,10,4919,0.2
+Influence Map,All,US & CA,All,56,4519,1.24
+Influence Map,All,US & CA,Launch_6,10,989,1.01
+Influence Map,All,US & CA,Launch_7,13,1197,1.09
+Influence Map,All,US & CA,Launch_8,9,1031,0.87
+Influence Map,Referral - Jake Parker,All,All,0,0,0
+Influence Map,Referral - Jake Parker,All,Launch_6,0,0,0
+Influence Map,Referral - Jake Parker,All,Launch_7,0,0,0
+Influence Map,Referral - Jake Parker,All,Launch_8,0,0,0
+Influence Map,Referral - Jake Parker,US & CA,All,0,0,0
+Influence Map,Referral - Jake Parker,US & CA,Launch_6,0,0,0
+Influence Map,Referral - Jake Parker,US & CA,Launch_7,0,0,0
+Influence Map,Referral - Jake Parker,US & CA,Launch_8,0,0,0
+Influence Map,Manual,All,All,0,0,0
+Influence Map,Manual,All,Launch_6,0,0,0
+Influence Map,Manual,All,Launch_7,0,0,0
+Influence Map,Manual,All,Launch_8,0,0,0
+Influence Map,Manual,US & CA,All,0,0,0
+Influence Map,Manual,US & CA,Launch_6,0,0,0
+Influence Map,Manual,US & CA,Launch_7,0,0,0
+Influence Map,Manual,US & CA,Launch_8,0,0,0
+Influence Map,Twitter,All,All,0,15,0.0
+Influence Map,Twitter,All,Launch_6,0,4,0.0
+Influence Map,Twitter,All,Launch_7,0,3,0.0
+Influence Map,Twitter,All,Launch_8,0,4,0.0
+Influence Map,Twitter,US & CA,All,0,6,0.0
+Influence Map,Twitter,US & CA,Launch_6,0,2,0.0
+Influence Map,Twitter,US & CA,Launch_7,0,1,0.0
+Influence Map,Twitter,US & CA,Launch_8,0,1,0.0
+Influence Map,FB Ad,All,All,24,17295,0.14
+Influence Map,FB Ad,All,Launch_6,6,4669,0.13
+Influence Map,FB Ad,All,Launch_7,3,4525,0.07
+Influence Map,FB Ad,All,Launch_8,2,4038,0.05
+Influence Map,FB Ad,US & CA,All,17,2858,0.59
+Influence Map,FB Ad,US & CA,Launch_6,3,626,0.48
+Influence Map,FB Ad,US & CA,Launch_7,3,774,0.39
+Influence Map,FB Ad,US & CA,Launch_8,1,668,0.15
+Influence Map,Facebook,All,All,0,73,0.0
+Influence Map,Facebook,All,Launch_6,0,21,0.0
+Influence Map,Facebook,All,Launch_7,0,19,0.0
+Influence Map,Facebook,All,Launch_8,0,17,0.0
+Influence Map,Facebook,US & CA,All,0,5,0.0
+Influence Map,Facebook,US & CA,Launch_6,0,0,0
+Influence Map,Facebook,US & CA,Launch_7,0,2,0.0
+Influence Map,Facebook,US & CA,Launch_8,0,2,0.0
+Influence Map,MailChimp,All,All,0,0,0
+Influence Map,MailChimp,All,Launch_6,0,0,0
+Influence Map,MailChimp,All,Launch_7,0,0,0
+Influence Map,MailChimp,All,Launch_8,0,0,0
+Influence Map,MailChimp,US & CA,All,0,0,0
+Influence Map,MailChimp,US & CA,Launch_6,0,0,0
+Influence Map,MailChimp,US & CA,Launch_7,0,0,0
+Influence Map,MailChimp,US & CA,Launch_8,0,0,0
+Influence Map,Unknown,All,All,7,207,3.38
+Influence Map,Unknown,All,Launch_6,1,39,2.56
+Influence Map,Unknown,All,Launch_7,3,67,4.48
+Influence Map,Unknown,All,Launch_8,1,56,1.79
+Influence Map,Unknown,US & CA,All,4,91,4.4
+Influence Map,Unknown,US & CA,Launch_6,1,14,7.14
+Influence Map,Unknown,US & CA,Launch_7,1,35,2.86
+Influence Map,Unknown,US & CA,Launch_8,1,30,3.33
+Influence Map,None,All,All,0,0,0
+Influence Map,None,All,Launch_6,0,0,0
+Influence Map,None,All,Launch_7,0,0,0
+Influence Map,None,All,Launch_8,0,0,0
+Influence Map,None,US & CA,All,0,0,0
+Influence Map,None,US & CA,Launch_6,0,0,0
+Influence Map,None,US & CA,Launch_7,0,0,0
+Influence Map,None,US & CA,Launch_8,0,0,0
+Influence Map,Medium,All,All,11,863,1.27
+Influence Map,Medium,All,Launch_6,1,171,0.58
+Influence Map,Medium,All,Launch_7,7,230,3.04
+Influence Map,Medium,All,Launch_8,1,230,0.43
+Influence Map,Medium,US & CA,All,9,374,2.41
+Influence Map,Medium,US & CA,Launch_6,1,78,1.28
+Influence Map,Medium,US & CA,Launch_7,5,95,5.26
+Influence Map,Medium,US & CA,Launch_8,1,90,1.11
+Influence Map,MCS Page,All,All,27,1735,1.56
+Influence Map,MCS Page,All,Launch_6,7,458,1.53
+Influence Map,MCS Page,All,Launch_7,3,374,0.8
+Influence Map,MCS Page,All,Launch_8,4,315,1.27
+Influence Map,MCS Page,US & CA,All,20,771,2.59
+Influence Map,MCS Page,US & CA,Launch_6,5,195,2.56
+Influence Map,MCS Page,US & CA,Launch_7,1,167,0.6
+Influence Map,MCS Page,US & CA,Launch_8,4,137,2.92
+Influence Map,Google Ad,All,All,0,0,0
+Influence Map,Google Ad,All,Launch_6,0,0,0
+Influence Map,Google Ad,All,Launch_7,0,0,0
+Influence Map,Google Ad,All,Launch_8,0,0,0
+Influence Map,Google Ad,US & CA,All,0,0,0
+Influence Map,Google Ad,US & CA,Launch_6,0,0,0
+Influence Map,Google Ad,US & CA,Launch_7,0,0,0
+Influence Map,Google Ad,US & CA,Launch_8,0,0,0
+Influence Map,Skillshare,All,All,3,434,0.69
+Influence Map,Skillshare,All,Launch_6,1,107,0.93
+Influence Map,Skillshare,All,Launch_7,0,85,0.0
+Influence Map,Skillshare,All,Launch_8,1,79,1.27
+Influence Map,Skillshare,US & CA,All,2,216,0.93
+Influence Map,Skillshare,US & CA,Launch_6,0,50,0.0
+Influence Map,Skillshare,US & CA,Launch_7,0,42,0.0
+Influence Map,Skillshare,US & CA,Launch_8,1,38,2.63
+Influence Map,Instagram,All,All,4,608,0.66
+Influence Map,Instagram,All,Launch_6,0,139,0.0
+Influence Map,Instagram,All,Launch_7,3,200,1.5
+Influence Map,Instagram,All,Launch_8,1,179,0.56
+Influence Map,Instagram,US & CA,All,4,198,2.02
+Influence Map,Instagram,US & CA,Launch_6,0,24,0.0
+Influence Map,Instagram,US & CA,Launch_7,3,81,3.7
+Influence Map,Instagram,US & CA,Launch_8,1,65,1.54

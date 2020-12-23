@@ -1,0 +1,23 @@
+# Command to test API Gateway (this is the post request that ConvertKit will send)
+{
+    "subscriber": {
+        "id": 460959911,
+        "first_name": null,
+        "email_address": "dnishiyama+test5@gmail.com",
+        "state": "inactive",
+        "created_at": "2019-05-08T18:21:55.000Z",
+        "fields": {
+            "country": null,
+            "last_name": null,
+            "lead_opt-in": null,
+            "lead_source": null,
+            "loc_city": null,
+            "loc_state": null,
+            "mailchimp_sub_date": null,
+            "region": null,
+            "stsbc_evg_launch_deadline": null,
+            "time_zone": null,
+            "unsubscribe_date": null
+        }
+    }
+}
